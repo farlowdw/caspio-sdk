@@ -1,6 +1,6 @@
 {
 	"name": "caspio-sdk",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "src/index.js",
 	"description": "Software development kit (SDK) and REST API wrapper for Caspio REST API (v2)",
 	"scripts": {
@@ -15,7 +15,7 @@
 	"keywords": [
 		"caspio",
 		"sdk",
-    "database",
+		"database",
 		"api-wrapper"
 	],
 	"author": "Daniel W. Farlow",
