@@ -19,7 +19,7 @@
 		"api-wrapper"
 	],
 	"author": "Daniel W. Farlow",
-	"license": "MIT",
+	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/farlowdw/caspio-sdk/issues"
 	},
