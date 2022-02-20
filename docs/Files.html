@@ -1,0 +1,2673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Files - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav class="wrap">
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/farlowdw/caspio-sdk" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Applications.html">Applications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppKey">dpDeployAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppName">dpDeployAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByKeys">dpDeployByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByNames">dpDeployByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByKeys">dpDeployCodeByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByNames">dpDeployCodeByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppKey">dpDisableAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppName">dpDisableAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByKeys">dpDisableByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByNames">dpDisableByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppKey">dpPropertiesByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppName">dpPropertiesByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByKeys">dpPropertiesByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByNames">dpPropertiesByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByName">propertiesByName</a></li></ul></li><li><a href="Authentications.html">Authentications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Authentications.html#.getAccessToken">getAccessToken</a></li></ul></li><li><a href="Files.html">Files</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Files.html#.deleteByKey">deleteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.deleteByPath">deleteByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByKey">downloadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByPath">downloadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByKey">metadataByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByPath">metadataByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByKey">uploadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByPath">uploadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByKey">uploadOverwriteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByPath">uploadOverwriteByPath</a></li></ul></li><li><a href="Tables.html">Tables</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tables.html#.addField">addField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.create">create</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.definition">definition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteField">deleteField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deletePasswordFieldValue">deletePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.fieldDefinition">fieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.passwordFields">passwordFields</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateFieldDefinition">updateFieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updatePasswordFieldValue">updatePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateRecords">updateRecords</a></li></ul></li><li><a href="Tasks.html">Tasks</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tasks.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByName">propertiesByName</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByKey">runByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByName">runByName</a></li></ul></li><li><a href="Utilities.html">Utilities</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Utilities.html#.copyRecord">copyRecord</a></li></ul></li><li><a href="Views.html">Views</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Views.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Views.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Views.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Views.html#.updateRecords">updateRecords</a></li></ul></li></ul><h3>Tutorials</h3><ul><li><a href="tutorial-1-authentication-token-tutorial.html">Obtain an authentication token</a></li><li><a href="tutorial-2-authentication-automation-tutorial.html">Automate renewal of access token (Mac)</a></li><li><a href="tutorial-3-database-generation.html">Run Arbitrarily Complex SQL Queries Against Your Caspio Data</a></li><li><a href="tutorial-4-caspio-data-reference.html">Caspio Data Reference</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Files</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        Files
+        </h2>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3039">line 3039</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+            
+                <div class="description usertext"><p>Methods for files.</p></div>
+            
+
+            
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".deleteByKey"><span class="type-signature">(static) </span>deleteByKey<span class="signature">(externalKey)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: (200|403|404), statusText: ('OK'|'Forbidden'|'NotFound'), message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3831">line 3831</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Deletes a file, where <code>externalKey</code> specifies the File ID of the file to be deleted.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// delete the file with File ID of 'f729e367-55f8-42e7-ac7c-a9c9a8a8912e'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function deleteFile() {
+  const FILE_ID = 'f729e367-55f8-42e7-ac7c-a9c9a8a8912e';
+  const deleteResult = await caspio.files.deleteByKey(FILE_ID);
+  console.log(deleteResult);
+  return deleteResult;
+}
+
+deleteFile();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: 'File successfully deleted.'
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>externalKey</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>File ID</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted file deletion (i.e., <code>status</code>, <code>statusText</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: (200|403|404), statusText: ('OK'|'Forbidden'|'NotFound'), message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".deleteByPath"><span class="type-signature">(static) </span>deleteByPath<span class="signature">(filePath)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: (200|403|404), statusText: ('OK'|'Forbidden'|'NotFound'), message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3780">line 3780</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Deletes a file, where <code>filePath</code> specifies the location of the file to be deleted.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// deletes file with full path of '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder/somefile1.png'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function deleteFile() {
+  const FILE_PATH = '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder/somefile1.png';
+  const deleteResult = await caspio.files.deleteByPath(FILE_PATH);
+  console.log(deleteResult);
+  return deleteResult;
+}
+
+deleteFile();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: "File 'somefile1.png' successfully deleted."
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>filePath</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Path to file</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted file deletion (i.e., <code>status</code>, <code>statusText</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: (200|403|404), statusText: ('OK'|'Forbidden'|'NotFound'), message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".downloadByKey"><span class="type-signature">(static) </span>downloadByKey<span class="signature">(externalKey, saveAsWithoutExt<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: (200|403|404), statusText: ('OK'|'Forbidden'|'NotFound'), message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3716">line 3716</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Downloads file content as an attachment, where <code>externalKey</code> specifies the File ID of the file to be downloaded and <code>saveAsWithoutExt</code>, if provided, specifies what the file's name should be upon download (the default name is that of the file being downloaded).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// download file with File ID of 'f729e367-55f8-42e7-ac7c-a9c9a8a8912e'
+// and save as '/Users/someuser/Desktop/myFile.&lt;extension-of-downloaded-file>'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function downloadFile() {
+  const FILE_ID = 'f729e367-55f8-42e7-ac7c-a9c9a8a8912e';
+  const SAVE_AS = '/Users/someuser/Desktop/myFile';
+  const downloadResult = await caspio.files.downloadByKey(FILE_ID, SAVE_AS);
+  console.log(downloadResult);
+  return downloadResult;
+}
+
+downloadFile();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: "File '/Users/someuser/Desktop/myFile.png' successfully downloaded."
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>externalKey</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>File ID</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>saveAsWithoutExt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Name to save file as (the extension should <em>not</em> be specified as this will be deduced by the content type of the file during download). If this argument is not provided, then the original file name is used.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted file download (i.e., <code>status</code>, <code>statusText</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: (200|403|404), statusText: ('OK'|'Forbidden'|'NotFound'), message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".downloadByPath"><span class="type-signature">(static) </span>downloadByPath<span class="signature">(filePath, saveAsWithoutExt<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: (200|403|404), statusText: ('OK'|'Forbidden'|'NotFound'), message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3652">line 3652</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Downloads file content as an attachment, where <code>filePath</code> specifies the location of the file to be downloaded and <code>saveAsWithoutExt</code>, if provided, specifies what the file's name should be upon download (the default name is that of the file being downloaded).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// download file '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder/somefile2.png'
+// and save as '/Users/someuser/Desktop/myFile.png'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function downloadFile() {
+  const FILE_PATH = '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder/somefile2.png';
+  const SAVE_AS = '/Users/someuser/Desktop/myFile';
+  const downloadResult = await caspio.files.downloadByPath(FILE_PATH, SAVE_AS);
+  console.log(downloadResult);
+  return downloadResult;
+}
+
+downloadFile();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: "File '/Users/someuser/Desktop/myFile.png' successfully downloaded."
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>filePath</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Path to file</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>saveAsWithoutExt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Name to save file as (the extension should <em>not</em> be specified as this will be deduced by the content type of the file during download). If this argument is not provided, then the original file name is used.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted file download (i.e., <code>status</code>, <code>statusText</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: (200|403|404), statusText: ('OK'|'Forbidden'|'NotFound'), message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".metadataByKey"><span class="type-signature">(static) </span>metadataByKey<span class="signature">(externalKey<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;{Folders: Array.&lt;{Name: string, ExternalKey: string, ContentType: string, DateCreated: string}>, <a href="Files.html">Files</a>: Array.&lt;{Name: string, ExternalKey: string, Size: number, LastModified: string, ContentType: string, DateCreated: string}>}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3162">line 3162</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns metadata for file(s) and folder(s) based on the <code>externalKey</code> provided. Specifically, returns an object with <code>Folders</code> and <code>Files</code> as keys whose values are arrays whose elements are metadata objects concerning those folders or files, respectively.</p>
+<p>If <code>externalKey</code> is empty (i.e., the default value), then the list of files and folders of the root folder is returned.</p>
+<p>If <code>externalKey</code> belongs to a folder, then the list of files and folders from the specified folder is returned.</p>
+<p>If <code>externalKey</code> belongs to a file, then an object of the form <code>{ &quot;Folders&quot;: [], &quot;Files&quot;: [ {...} ] }</code> is returned, where <code>{ ... }</code> refers to the single file identified by <code>externalKey</code>.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get the files and folders in the 'Demo_Sandbox' folder
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getFolderMetadata() {
+  // the key below is for the 'Demo_Sandbox' folder
+  const FILE_FOLDER_ID = "c5b7f134-dcd0-4c34-bba3-34129ee6e9eb";
+  const metadata = await caspio.files.metadataByKey(FILE_FOLDER_ID);
+  console.log(metadata);
+  return metadata;
+}
+
+getFolderMetadata();
+
+// sample return value
+{
+  Folders: [
+    {
+      Name: 'Demo_Subfolder_One',
+      ExternalKey: '4e2ed81b-b9af-4116-852f-c7cc29cda6a1',
+      ContentType: 'caspio/folder',
+      DateCreated: '1/12/2022 7:14:50 AM'
+    },
+    {
+      Name: 'Demo_Subfolder_Two',
+      ExternalKey: '86eccfcc-e295-405f-978c-3e06495b3d82',
+      ContentType: 'caspio/folder',
+      DateCreated: '1/12/2022 7:14:01 AM'
+    }
+  ],
+  Files: [
+    {
+      Name: 'ds1.png',
+      ExternalKey: 'b0bd9207-06e2-4932-8c1a-97aff5c93ae5',
+      Size: 1449,
+      LastModified: '1/28/2022 3:31:03 PM',
+      ContentType: 'image/png',
+      DateCreated: '1/12/2022 7:16:58 AM'
+    }
+  ]
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>externalKey</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Folder or file ID</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with metadata concerning folders and files</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{Folders: Array.&lt;{Name: string, ExternalKey: string, ContentType: string, DateCreated: string}>, <a href="Files.html">Files</a>: Array.&lt;{Name: string, ExternalKey: string, Size: number, LastModified: string, ContentType: string, DateCreated: string}>}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".metadataByPath"><span class="type-signature">(static) </span>metadataByPath<span class="signature">(resourcePath, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;({Name: string, ExternalKey: string, ContentType: string, DateCreated: string}|{Name: string, ExternalKey: string, Size: number, LastModified: string, ContentType: string, DateCreated: string})>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3099">line 3099</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns metadata specifically for a file or directory by <em>path</em>, <code>resourcePath</code> (i.e., instead of by a file or directory key). By default, metadata is requested for a <em>file</em>. This can be changed, however, by setting the <code>resourceType</code> property of the <code>options</code> object to <code>'d'</code> for <em>directory</em> (the default is <code>'f'</code> for <em>file</em>).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>// Get metadata for the '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder' directory
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getDirectoryMetadata() {
+  const DIRECTORY_PATH = '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder';
+  const metadata = await caspio.files.metadataByPath(DIRECTORY_PATH, { resourceType: 'd' });
+  console.log(metadata);
+  return metadata;
+}
+
+getDirectoryMetadata();
+
+// sample return value
+{
+  Name: 'Demo_Subfolder_One_Subfolder',
+  ExternalKey: '6b8dc1eb-8c38-4512-8040-8a847e478778',
+  ContentType: 'caspio/folder',
+  DateCreated: '1/12/2022 7:15:18 AM'
+}</code></pre>
+
+    <pre class="prettyprint"><code>// Get metadata for the '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder/dsos1.png' file
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getFileMetadata() {
+  const FILE_PATH = '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder/dsos1.png';
+  const metadata = await caspio.files.metadataByPath(FILE_PATH, { resourceType: 'f' });
+  console.log(metadata);
+  return metadata;
+}
+
+getFileMetadata();
+
+// sample return value
+{
+  Name: 'dsos1.png',
+  ExternalKey: 'c92e471f-8cd1-49ce-b5d5-2c88bf0ab045',
+  Size: 1449,
+  LastModified: '1/28/2022 3:31:42 PM',
+  ContentType: 'image/png',
+  DateCreated: '1/24/2022 8:30:51 PM'
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>resourcePath</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Path to requested resource such as <code>/FolderOne/FolderTwo</code> for a directory or <code>/FolderOne/FolderTwo/myFile.png</code> for a file (case-sensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{ 'resourceType': 'f' }</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Object with a <code>'resourceType'</code> key whose value should be either <code>'f'</code> for <em>file</em> or <code>'d'</code> for <em>directory</em> (defaults to <code>'f'</code>).</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>An object with metadata strictly about the requested resource; that is, if <code>{ 'resourceType': 'f' }</code> is supplied as the <code>options</code> argument, which is the default, then metadata about a <em>file</em> will be returned (if found).</p>
+<p>Similarly, if <code>{ 'resourceType': 'd' }</code> is supplied as the <code>options</code> argument, then metadata about a <em>directory</em> or folder will be returned (if found).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;({Name: string, ExternalKey: string, ContentType: string, DateCreated: string}|{Name: string, ExternalKey: string, Size: number, LastModified: string, ContentType: string, DateCreated: string})></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".uploadByKey"><span class="type-signature">(static) </span>uploadByKey<span class="signature">(srcFilePathsArr, externalKey<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 201, statusText: 'Created', message: string, uploadedFiles: Array.&lt;{Name: string, ExternalKey: string}>}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3579">line 3579</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Uploads one or more files into the Files area of a Caspio account. Specifically, an array of one or more elements (i.e., <code>srcFilePathsArr</code>) is specified as the file(s) to be uploaded, where <code>externalKey</code> specifies the Folder ID of the directory where files should be uploaded.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>// upload multiple files to a directory where original and new names are used for the uploaded files
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function uploadFiles() {
+  const FOLDER_ID = '6b8dc1eb-8c38-4512-8040-8a847e478778';
+  const FILES_ARRAY = ['./somefile1.png', ['./somefile2.png', 'myCoolSecondFile'], './somefile3.png'];
+  const uploadResult = await caspio.files.uploadByKey(FILES_ARRAY, FOLDER_ID);
+  console.log(uploadResult);
+  return uploadResult;
+}
+
+uploadFiles();
+
+// sample return value
+{
+  status: 201,
+  statusText: 'Created',
+  message: 'File(s) uploaded successfully, in part or in whole. If a file was not uploaded, then a file with the same name already exists in the specified location.',
+  uploadedFiles: [
+    {
+      Name: 'somefile1.png',
+      ExternalKey: '8337a0b4-e314-4e82-a0ee-4ea2e1e8b38b'
+    },
+    {
+      Name: 'myCoolSecondFile.png',
+      ExternalKey: 'ab9c2d44-71a4-4218-977d-62aedc21bb53'
+    },
+    {
+      Name: 'somefile3.png',
+      ExternalKey: '452d659c-319c-4ebc-95f1-a2a49cc6a97a'
+    }
+  ]
+}</code></pre>
+
+    <pre class="prettyprint"><code>// attempt upload of multiple files to a directory resulting in only one file being uploaded
+// since the other two files already exist in the same location by the same name
+// (assumes example above was used prior to this example)
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function uploadFiles() {
+  const FOLDER_ID = '6b8dc1eb-8c38-4512-8040-8a847e478778';
+  const FILES_ARRAY = ['./somefile1.png', './somefile2.png', './somefile3.png'];
+  const uploadResult = await caspio.files.uploadByKey(FILES_ARRAY, FOLDER_ID);
+  console.log(uploadResult);
+  return uploadResult;
+}
+
+uploadFiles();
+
+// sample return value
+{
+  status: 201,
+  statusText: 'Created',
+  message: 'File(s) uploaded successfully, in part or in whole. If a file was not uploaded, then a file with the same name already exists in the specified location.',
+  uploadedFiles: [
+    {
+      Name: 'somefile2.png',
+      ExternalKey: 'f9d70ed7-1cce-425b-87b7-914a743da5af'
+    }
+  ]
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>srcFilePathsArr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;(string|Array.&lt;string, string>)></span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>An array consisting of strings and/or 2-element subarrays. If the element is a string, then the element should be the path to the file to be uploaded (i.e., where the name of the uploaded file will be the name of the original file); if, however, the element is a 2-element array, the first element should be the file path to the file to be uploaded, and the second element should be the new name of the file <em>without</em> an extension (sort of like a &quot;Save As&quot;), where the extension is deduced from the first element of the 2-element array. Example argument: <code>['./pathToFileNameUnchanged.png', [ './pathToFileWithUndesiredName.png', 'fileNameReallyDesired' ]]</code>.</p>
+<p>If an attempt is made to upload a file with the same name as a currently existing file, then this attempt is aborted. If <em>all</em> attempts are aborted, then the Caspio server throws an error.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>externalKey</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Upload destination by key (i.e., the ID of the destination folder). If <code>externalKey</code> is not provided, then the file is uploaded to the root folder (i.e., <code>/</code>).</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted file(s) upload to the folder specified by <code>externalKey</code> (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, and <code>uploadedFiles</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 201, statusText: 'Created', message: string, uploadedFiles: Array.&lt;{Name: string, ExternalKey: string}>}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".uploadByPath"><span class="type-signature">(static) </span>uploadByPath<span class="signature">(srcFilePathsArr, destDirPath<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 201, statusText: 'Created', message: string, uploadedFiles: Array.&lt;{Name: string, ExternalKey: string}>}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3450">line 3450</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Uploads one or more files into the Files area of a Caspio account. Specifically, an array of one or more elements (i.e., <code>srcFilePathsArr</code>) is specified as the file(s) to be uploaded, where <code>destDirPath</code> specifies the path to the directory where files should be uploaded.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>// upload multiple files to a directory where original and new names are used for the uploaded files
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function uploadFiles() {
+  const FOLDER_PATH = '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder';
+  const FILES_ARRAY = ['./somefile1.png', ['./somefile2.png', 'myCoolSecondFile'], './somefile3.png'];
+  const uploadResult = await caspio.files.uploadByPath(FILES_ARRAY, FOLDER_PATH);
+  console.log(uploadResult);
+  return uploadResult;
+}
+
+uploadFiles();
+
+// sample return value
+{
+  status: 201,
+  statusText: 'Created',
+  message: 'File(s) uploaded successfully, in part or in whole. If a file was not uploaded, then a file with the same name already exists in the specified location.',
+  uploadedFiles: [
+    {
+      Name: 'somefile1.png',
+      ExternalKey: '2098314a-7a3d-4721-aa87-42f72dfce8b9'
+    },
+    {
+      Name: 'myCoolSecondFile.png',
+      ExternalKey: '06d55aaa-86e3-4392-a052-6def82380a77'
+    },
+    {
+      Name: 'somefile3.png',
+      ExternalKey: '070e2b77-efca-4ba5-b3e8-7868dd3d2091'
+    }
+  ]
+}</code></pre>
+
+    <pre class="prettyprint"><code>// attempt upload of multiple files to a directory resulting in only one file being uploaded
+// since the other two files already exist in the same location by the same name
+// (assumes example above was used prior to this example)
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function uploadFiles() {
+  const FOLDER_PATH = '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder';
+  const FILES_ARRAY = ['./somefile1.png', './somefile2.png', './somefile3.png'];
+  const uploadResult = await caspio.files.uploadByPath(FILES_ARRAY, FOLDER_PATH);
+  console.log(uploadResult);
+  return uploadResult;
+}
+
+uploadFiles();
+
+// sample return value
+{
+  status: 201,
+  statusText: 'Created',
+  message: 'File(s) uploaded successfully, in part or in whole. If a file was not uploaded, then a file with the same name already exists in the specified location.',
+  uploadedFiles: [
+    {
+      Name: 'somefile2.png',
+      ExternalKey: 'f729e367-55f8-42e7-ac7c-a9c9a8a8912e'
+    }
+  ]
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>srcFilePathsArr</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;(string|Array.&lt;string, string>)></span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>An array consisting of strings and/or 2-element subarrays. If the element is a string, then the element should be the path to the file to be uploaded (i.e., where the name of the uploaded file will be the name of the original file); if, however, the element is a 2-element array, the first element should be the file path to the file to be uploaded, and the second element should be the new name of the file <em>without</em> an extension (sort of like a &quot;Save As&quot;), where the extension is deduced from the first element of the 2-element array. Example argument: <code>['./pathToFileNameUnchanged.png', [ './pathToFileWithUndesiredName.png', 'fileNameReallyDesired' ]]</code>.</p>
+<p>If an attempt is made to upload a file with the same name as a currently existing file, then this attempt is aborted. If <em>all</em> attempts are aborted, then the Caspio server throws an error.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>destDirPath</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Upload destination by path (i.e., the path of the destination folder). If <code>destDirPath</code> is not provided, then the file is uploaded to the root folder (i.e., <code>/</code>).</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted file(s) upload to the folder specified by <code>externalKey</code> (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, and <code>uploadedFiles</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 201, statusText: 'Created', message: string, uploadedFiles: Array.&lt;{Name: string, ExternalKey: string}>}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".uploadOverwriteByKey"><span class="type-signature">(static) </span>uploadOverwriteByKey<span class="signature">(srcFilePath, externalKey<span class="signature-attributes">opt</span>, newFileNameNoExt<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: (200|201), statusText: ('OK'|'Created'), message: string, Name: string, ExternalKey: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3340">line 3340</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Uploads or overwrites one file into the Caspio's account's Files area. A file is only overwritten if a file of the same name exists in the upload destination. The file to upload is specified by <code>srcFilePath</code>, the destination of the upload directory as <code>externalKey</code> (i.e., Folder ID of destination folder), and finally whether or not the original file name should be saved as a different file name upon upload, <code>newFileNameNoExt</code> (by default, the original file name is used).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>// upload the local file 'somefile1.png' to the Files area as 'dsos2.png' in the folder with
+// a key of '6b8dc1eb-8c38-4512-8040-8a847e478778' (i.e., 'Demo_Subfolder_One_Subfolder')
+// this results in creating a new file (i.e., no file is overwritten)
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function uploadOrOverwriteFile() {
+  const FOLDER_ID = '6b8dc1eb-8c38-4512-8040-8a847e478778';
+  const uploadResult = await caspio.files.uploadOverwriteByKey('./somefile1.png', FOLDER_ID, 'dsos2');
+  console.log(uploadResult);
+  return uploadResult;
+}
+
+uploadOrOverwriteFile();
+
+// sample return value
+{
+  status: 201,
+  statusText: 'Created',
+  message: "File 'dsos2.png' uploaded successfully. No file was overwritten.",
+  Name: 'dsos2.png',
+  ExternalKey: '59f9f6d1-531d-460e-af57-458c2df2cfc6'
+}</code></pre>
+
+    <pre class="prettyprint"><code>// upload the local file 'somefile2.png' to the Files area as 'dsos2.png' in the folder with
+// a key of '6b8dc1eb-8c38-4512-8040-8a847e478778' (i.e., 'Demo_Subfolder_One_Subfolder')
+// this results in overwriting the 'dsos2.png' file that was added in the previous example
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function uploadOrOverwriteFile() {
+  const FOLDER_ID = '6b8dc1eb-8c38-4512-8040-8a847e478778';
+  const uploadResult = await caspio.files.uploadOverwriteByKey('./somefile2.png', FOLDER_ID, 'dsos2');
+  console.log(uploadResult);
+  return uploadResult;
+}
+
+uploadOrOverwriteFile();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: "File 'dsos2.png' uploaded successfully. Another file of the same name in the same location was overwritten.",
+  Name: 'dsos2.png',
+  ExternalKey: '59f9f6d1-531d-460e-af57-458c2df2cfc6'
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>srcFilePath</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Path of the file to be uploaded</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>externalKey</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Upload destination by key (i.e., the ID of the destination folder). If <code>externalKey</code> is not provided, then the file is uploaded to the root folder (i.e., <code>/</code>).</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>newFileNameNoExt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>New name for the file to be uploaded (almost like a &quot;Save As&quot; option). It should <em>not</em> contain the file extension--this will be deduced from the first argument, <code>srcFilePath</code>. The default value is an empty string, <code>''</code>, which will be used to indicate no new name has been specified.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the upload attempt (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, <code>Name</code>, and <code>ExternalKey</code>, where <code>Name</code> represents the name of the uploaded file and <code>ExternalKey</code> the file's assigned ID). If the <code>status</code> value is <code>200</code> (with <code>statusText</code> of <code>'OK'</code>), then a file of the same name in the same location was overwritten. If the status value is <code>201</code> (with <code>statusText</code> of <code>'Created'</code>), then the file was uploaded without any other file being overwritten.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: (200|201), statusText: ('OK'|'Created'), message: string, Name: string, ExternalKey: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".uploadOverwriteByPath"><span class="type-signature">(static) </span>uploadOverwriteByPath<span class="signature">(srcFilePath, destDirPath<span class="signature-attributes">opt</span>, newFileNameNoExt<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: (200|201), statusText: ('OK'|'Created'), message: string, Name: string, ExternalKey: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3235">line 3235</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Uploads or overwrites one file into the Caspio's account's Files area. A file is only overwritten if a file of the same name exists in the upload destination. The file to upload is specified by <code>srcFilePath</code>, the destination of the upload directory as <code>destDirPath</code>, and finally whether or not the original file name should be saved as a different file name upon upload, <code>newFileNameNoExt</code> (by default, the original file name is used).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+    <pre class="prettyprint"><code>// uploads a local file 'somefile2.png' to the Files area as 'dsos2.png' in the folder with
+// full path '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder'
+// this results in creating a new file (i.e., no file is overwritten)
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function uploadOrOverwriteFile() {
+  const FOLDER_PATH = '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder';
+  const uploadResult = await caspio.files.uploadOverwriteByPath('./somefile2.png', FOLDER_PATH, 'dsos2');
+  console.log(uploadResult);
+  return uploadResult;
+}
+
+uploadOrOverwriteFile();
+
+// sample return value
+{
+  status: 201,
+  statusText: 'Created',
+  message: "File 'dsos2.png' uploaded successfully. No file was overwritten.",
+  Name: 'dsos2.png',
+  ExternalKey: 'ad2c32c8-ae5a-41d9-885c-5f31f0d3a748'
+}</code></pre>
+
+    <pre class="prettyprint"><code>// upload the local file 'somefile2.png' to the Files area as 'dsos2.png' in the folder with
+// full path '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder'
+// this results in overwriting the 'dsos2.png' file that was added in the previous example
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function uploadOrOverwriteFile() {
+  const FOLDER_PATH = '/Demo_Sandbox/Demo_Subfolder_One/Demo_Subfolder_One_Subfolder';
+  const uploadResult = await caspio.files.uploadOverwriteByPath('./somefile2.png', FOLDER_PATH, 'dsos2');
+  console.log(uploadResult);
+  return uploadResult;
+}
+
+uploadOrOverwriteFile();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: "File 'dsos2.png' uploaded successfully. Another file of the same name in the same location was overwritten.",
+  Name: 'dsos2.png',
+  ExternalKey: 'ad2c32c8-ae5a-41d9-885c-5f31f0d3a748'
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>srcFilePath</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Path of the file to be uploaded</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>destDirPath</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Upload destination by path (i.e., the path of the destination folder). If <code>destDirPath</code> is not provided, then the file is uploaded to the root folder (i.e., <code>/</code>).</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>newFileNameNoExt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>New name for the file to be uploaded (almost like a &quot;Save As&quot; option). It should <em>not</em> contain the file extension--this will be deduced from the first argument, <code>srcFilePath</code>. The default value is an empty string, <code>''</code>, which will be used to indicate no new name has been specified.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the upload attempt (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, <code>Name</code>, and <code>ExternalKey</code>, where <code>Name</code> represents the name of the uploaded file and <code>ExternalKey</code> the file's assigned ID). If the <code>status</code> value is <code>200</code>, then a file of the same name in the same location was overwritten. If the <code>status</code> value is <code>200</code> (with <code>statusText</code> of <code>'OK'</code>), then a file of the same name in the same location was overwritten. If the status value is <code>201</code> (with <code>statusText</code> of <code>'Created'</code>), then the file was uploaded without any other file being overwritten.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: (200|201), statusText: ('OK'|'Created'), message: string, Name: string, ExternalKey: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

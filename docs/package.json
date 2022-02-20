@@ -1,0 +1,16 @@
+{
+	"name": "caspio-sdk-js-docs",
+	"version": "1.0.0",
+	"description": "JavaScript documentation for caspio-sdk package using JSDocs",
+	"main": "index.js",
+	"author": "Daniel W. Farlow",
+	"license": "ISC",
+	"devDependencies": {
+		"docdash": "^1.2.0",
+		"jsdoc": "^3.6.10",
+		"jsdoc-to-markdown": "^7.1.1"
+	},
+	"scripts": {
+		"build_docs": "jsdoc2md --files ../src/index.js > caspio-sdk-jsdocs.md && bash jsdocs-reset.sh && jsdoc -c jsdoc.json -d ."
+	}
+}

@@ -1,0 +1,6609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Tables - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav class="wrap">
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/farlowdw/caspio-sdk" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Applications.html">Applications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppKey">dpDeployAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppName">dpDeployAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByKeys">dpDeployByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByNames">dpDeployByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByKeys">dpDeployCodeByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByNames">dpDeployCodeByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppKey">dpDisableAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppName">dpDisableAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByKeys">dpDisableByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByNames">dpDisableByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppKey">dpPropertiesByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppName">dpPropertiesByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByKeys">dpPropertiesByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByNames">dpPropertiesByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByName">propertiesByName</a></li></ul></li><li><a href="Authentications.html">Authentications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Authentications.html#.getAccessToken">getAccessToken</a></li></ul></li><li><a href="Files.html">Files</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Files.html#.deleteByKey">deleteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.deleteByPath">deleteByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByKey">downloadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByPath">downloadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByKey">metadataByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByPath">metadataByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByKey">uploadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByPath">uploadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByKey">uploadOverwriteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByPath">uploadOverwriteByPath</a></li></ul></li><li><a href="Tables.html">Tables</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tables.html#.addField">addField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.create">create</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.definition">definition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteField">deleteField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deletePasswordFieldValue">deletePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.fieldDefinition">fieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.passwordFields">passwordFields</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateFieldDefinition">updateFieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updatePasswordFieldValue">updatePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateRecords">updateRecords</a></li></ul></li><li><a href="Tasks.html">Tasks</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tasks.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByName">propertiesByName</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByKey">runByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByName">runByName</a></li></ul></li><li><a href="Utilities.html">Utilities</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Utilities.html#.copyRecord">copyRecord</a></li></ul></li><li><a href="Views.html">Views</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Views.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Views.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Views.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Views.html#.updateRecords">updateRecords</a></li></ul></li></ul><h3>Tutorials</h3><ul><li><a href="tutorial-1-authentication-token-tutorial.html">Obtain an authentication token</a></li><li><a href="tutorial-2-authentication-automation-tutorial.html">Automate renewal of access token (Mac)</a></li><li><a href="tutorial-3-database-generation.html">Run Arbitrarily Complex SQL Queries Against Your Caspio Data</a></li><li><a href="tutorial-4-caspio-data-reference.html">Caspio Data Reference</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Tables</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        Tables
+        </h2>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line920">line 920</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+            
+                <div class="description usertext"><p>Methods for tables.</p></div>
+            
+
+            
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".addField"><span class="type-signature">(static) </span>addField<span class="signature">(tableName, fieldToAdd)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 201, statusText: 'Created', message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1435">line 1435</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Adds a field to table <code>tableName</code>.</p>
+<p><strong>Note (incompatible types):</strong> Some properties are not compatible with some field types. For example, it is not possible to specify a <code>Prefix</code> for a field whose <code>Type</code> is <code>'TIMESTAMP'</code>. Use care and caution when creating field definitions.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// add a simple text field (max 255 characters) to the 'Demo_Users' table
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function addFieldToTable() {
+  const fieldDef = {
+    "Name": "Sample_Field",
+    "Type": "STRING",
+    "Unique": false,
+    "Description": "Sample data field to collext smaller textual data (max 255 characters)",
+    "DisplayOrder": 1,
+    "Label": "Sample Field",
+  }
+  const addFieldResult = await caspio.tables.addField('Demo_Users', fieldDef);
+  console.log(addFieldResult);
+  return addFieldResult;
+}
+
+addFieldToTable();
+
+// sample return value
+{
+  status: 201,
+  statusText: 'Created',
+  message: "The field 'Sample_Field' was successfully added to the following table: 'Demo_Users'."
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>fieldToAdd</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Definition of field to add to the specified table</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>Name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The name of the field to be created. Field names must comply with the following naming protocol as specified in <a href="https://howto.caspio.com/tables-and-views/creating-and-modifying-a-table/">Caspio's documentation</a>:</p>
+<p>Must be alphanumeric (<code>a-Z</code>, <code>0-9</code>);</p>
+<p>can be up to <code>32</code> characters long; may include an underscore (<code>_</code>);</p>
+<p>must begin with a letter; spaces are not allowed</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Type</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The type of the field to be created (i.e., data type). Valid types: <code>'AUTONUMBER'</code>, <code>'PREFIXED AUTONUMBER'</code>, <code>'GUID'</code>, <code>'RANDOM ID'</code>, <code>'STRING'</code>, <code>'TEXT'</code>, <code>'PASSWORD'</code>, <code>'NUMBER'</code>, <code>'INTEGER'</code>, <code>'CURRENCY'</code>, <code>'DATE/TIME'</code>, <code>'YES/NO'</code>, <code>'FILE'</code>, <code>'TIMESTAMP'</code>, <code>'LIST-STRING'</code>, <code>'LIST-NUMBER'</code>, <code>LIST-DATE/TIME'</code></p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Unique</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not uniqueness should be enforced on values entered in the field</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>UniqueAllowNulls</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not missing values should be allowed in a field where uniqueness is enforced</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Label</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>A label for the field that will be automatically used in DataPages (maximum of <code>255</code> characters allowed)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Description</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Description of the field (maximum of <code>4000</code> characters allowed)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>DisplayOrder</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Order in which the field is displayed in a table</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>OnInsert</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not a timestamp should record when (i.e., date and time) a record was inserted in a table (defaults to <code>true</code> when the field <code>Type</code> is <code>'TIMESTAMP'</code>)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>OnUpdate</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not a timestamp should record when (i.e., date and time) a record was updated in a table (defaults to <code>false</code> when the field <code>Type</code> is <code>'TIMESTAMP'</code>)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>TimeZone</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Time zone description for a field with <code>Type</code> of <code>'TIMESTAMP'</code> (to see all valid time zone descriptions, visit the design page for any table in your application, select the data type of &quot;Timestamp&quot; for the field, and then view the &quot;Time Zone&quot; selection list in the &quot;Options&quot; menu on the right of the table design page)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Format</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Number format for fields with a <code>Type</code> of <code>'PREFIXED AUTONUMBER'</code>. Possible values for <code>Format</code> option: <code>'1'</code>, <code>'01'</code>, <code>'001'</code>, <code>'0001'</code>, <code>'00001'</code>, <code>'000001'</code>, <code>'0000001'</code></p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Prefix</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Prefix for values in a field with a <code>Type</code> of either <code>'PREFIXED AUTONUMBER'</code> or <code>'RANDOM ID'</code>.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Length</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Length of random character generation when using a field with a <code>Type</code> of <code>'RANDOM ID'</code>. The length of a field value recorded may exceed the <code>Length</code> specified if a <code>Prefix</code> has been provided (i.e., the <code>Prefix</code> <em>does not</em> count toward the overall length of the random character string generated). Valid values for the <code>Length</code> option: <code>6</code>, <code>7</code>, <code>8</code>, <code>9</code>, <code>10</code>, <code>11</code>, <code>12</code></p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>IsFormula</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Indicates whether or not the field is being used as a formula field. Currently, the Caspio REST API does not enable you to actually specify the formula to be used. The use of this option when creating a field for a table is <em>not</em> recommended.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>ListField</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Array that specifies the list values to be used when the field has a <code>Type</code> of <code>LIST-STRING</code>, <code>LIST-NUMBER</code>, or <code>LIST-DATE/TIME'</code>. All values specified in the array should have a data type corresponding to <code>&lt;data-type&gt;</code> in <code>LIST-&lt;data-type&gt;</code> (i.e., <code>STRING</code>, <code>NUMBER</code>, or <code>DATE/TIME</code>).</p>
+<p>For example, values for a field with a <code>Type</code> of <code>'LIST-STRING'</code> may be specified as <code>[ &quot;2022-25-12&quot;, &quot;Dog&quot;, &quot;2022&quot;, ... ]</code>, a <code>'LIST-NUMBER'</code> as <code>[ 15, 21, ... ]</code>, and a <code>'LIST-DATE/TIME'</code> as <code>[ &quot;1991-07-30T15:32:57&quot;, &quot;2019-01-20&quot;, &quot;2020-06-08T00:00:00&quot;, ... ]</code>.</p>
+<p>If you were to then query the definition of the table to which the fields above were added, then the <code>ListField</code> property for the <code>'LIST-STRING'</code> would appear as <code>{ &quot;1&quot;: &quot;2022-25-12&quot;, &quot;2&quot;: &quot;Dog&quot;, &quot;3&quot;: &quot;2022&quot;, ... }</code>, the <code>'LIST-NUMBER'</code> as <code>{ &quot;1&quot;: 15, &quot;2&quot;: 21, ... }</code>, and the <code>'LIST-DATE/TIME'</code> as <code>{ &quot;1&quot;: &quot;1991-07-30T15:32:57&quot;, &quot;2&quot;: &quot;2019-01-20T00:00:00&quot;, &quot;3&quot;: &quot;2020-06-08T00:00:00&quot;, ... }</code>.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted creation of the new field for the specified table (i.e., <code>status</code>, <code>statusText</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 201, statusText: 'Created', message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".create"><span class="type-signature">(static) </span>create<span class="signature">(tableName, fieldDefinitions)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 201, statusText: 'Created', message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1209">line 1209</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><p>Caspio documentation for <a href="https://howto.caspio.com/tables-and-views/creating-and-modifying-a-table/">creating tables</a></p></li>
+        </ul>
+    </dd>
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Creates a new table using the name and field definitions provided (i.e., <code>tableName</code> and <code>fieldDefinitions</code>, respectively). This is often a <em>slow</em> method and takes a while for the request to be processed by Caspio's servers.</p>
+<p><strong>Note (incompatible types):</strong> Some properties are not compatible with some field types. For example, it is not possible to specify a <code>Prefix</code> for a field whose <code>Type</code> is <code>'TIMESTAMP'</code>. Use care and caution when creating field definitions. The example that accompanies this method shows examples of each field <code>Type</code> creation.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// create a table titled 'my_new_table' that includes an example
+// of the creation of each field type that Caspio has to offer
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function createTable() {
+  const tableName = 'my_new_table';
+  const tableColumnDefs = [
+    {
+      "Name": "my_id",
+      "Type": "AUTONUMBER",
+      "Unique": true,
+      "Description": "Data Type: Autonumber\n\nDescription: An automatically-assigned ID field. The value is incremented by 1 for each new record and cannot be changed except by resetting it for the entire table.\n\nExamples: Customer_ID, Record_ID\n\nConversion Compatibility: Text (255), Text (64000), Number, Integer, Currency",
+      "DisplayOrder": 1,
+      "Label": "Example field with Type of AUTONUMBER",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Format": "001",
+      "Prefix": "some_prefix",
+      "Name": "my_prefixed_autonumber",
+      "Type": "PREFIXED AUTONUMBER",
+      "Unique": true,
+      "Description": "Data Type: Prefixed Autonumber\n\nDescription: An automatically-assigned ID field with the ability to add a prefix.\n\nUse the Options area to configure the prefix and number format of the ID code to be generated.\n\nExamples: Customer_ID, Record_ID\n\nConversion Compatibility: Text (255), Text (64000)",
+      "DisplayOrder": 2,
+      "Label": "Example field with Type of PREFIXED AUTONUMBER",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "guid",
+      "Type": "GUID",
+      "Unique": true,
+      "Description": "Data Type: GUID\n\nDescription: A system-generated and globally-unique identifier value, typically used as a complex unique value.\n\nExamples: Customer_ID, Record_ID\n\nConversion Compatibility: Text (255), Text (64000)",
+      "DisplayOrder": 3,
+      "Label": "Type GUID",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Format": "0U",
+      "Prefix": "",
+      "Length": 8,
+      "Name": "random_id",
+      "Type": "RANDOM ID",
+      "Unique": true,
+      "Description": "Data Type: Random ID\n\nDescription: A unique system-generated random ID field with the ability to add a prefix as well as define the length and composition of characters, digits, or both.\n\nUse the Options area to configure the prefix and number of characters the ID code should contain. You can also specify whether to include alphabet characters only, numbers only, or both (alphanumeric).\n\nExamples: Customer_ID, Record_ID\n\nConversion Compatibility: Text (255), Text (64000)",
+      "DisplayOrder": 4,
+      "Label": "Type: RANDOM ID",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "Full_Name",
+      "Type": "STRING",
+      "Unique": false,
+      "Description": "Data Type: Text (255)\n\nDescription: Used for a string of text of up to 255 alphanumeric characters and/or symbols. This data type is the most common data type and yields the fastest performance in searches.\n\nYou can also use this data type for numeric characters that are not used as numbers in calculations or formatting--such as phone numbers, zip codes, and social security numbers. Not doing so impacts formatting and prevents proper sorting by this field.\n\nExamples: First_Name, State, Phone, Zip_Code\n\nConversion Compatibility: Text (64000), File (provided that the text field contains proper file paths)",
+      "DisplayOrder": 5,
+      "Label": "Type: TEXT",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "Bio",
+      "Type": "TEXT",
+      "Unique": false,
+      "Description": "Data Type: Text (64000)\n\nDescription: Used for a long string of text of up to 64,000 alphanumeric characters and/or symbols.\n\nUse this data type for description fields or other lengthy text data. Otherwise, use Text (255), which performs much faster.\n\nExamples: Description, Comments\n\nConversion Compatibility: Text (255) (longer strings are truncated), File (provided that the text field contains proper file paths)",
+      "DisplayOrder": 6,
+      "Label": "Type: STRING",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "password",
+      "Type": "PASSWORD",
+      "Unique": false,
+      "Description": "Data Type: Password\n\nDescription: Used for storing user passwords.\n\nThe value of this field is always encrypted and cannot be seen in Datasheet or DataPages.\n\nExamples: Password\n\nConversion Compatibility: None",
+      "DisplayOrder": 7,
+      "Label": "Type: PASSWORD",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "Favorite_Number",
+      "Type": "NUMBER",
+      "Unique": false,
+      "Description": "Data Type: Number\n\nDescription: Used for decimal numbers.\n\nExamples: Weight, height, area, percentage values\n\nConversion Compatibility: Text (255), Text (64000), Integer (decimal values are truncated), Currency (allows up to four decimal points)",
+      "DisplayOrder": 8,
+      "Label": "Type: NUMBER",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "Age",
+      "Type": "INTEGER",
+      "Unique": false,
+      "Description": "Data Type: Integer\n\nDescription: Used for numbers that do not have a decimal point, can be used as IDs and in relationships.\n\nExamples: Age, number of children\n\nConversion Compatibility: Text (255), Text (64000), Number, Currency",
+      "DisplayOrder": 9,
+      "Label": "Type: INTEGER",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "Salary",
+      "Type": "CURRENCY",
+      "Unique": false,
+      "Description": "Data Type: Currency\n\nDescription: Used for money fields in any currency.\n\nExamples: Price, Salary\n\nConversion Compatibility: Text (255), Text (64000), Integer (decimal values are truncated)",
+      "DisplayOrder": 10,
+      "Label": "Type: CURRENCY",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "Birthday",
+      "Type": "DATE/TIME",
+      "Unique": false,
+      "Description": "Data Type: Date/Time\n\nDescription: Used for date and time data.\n\nDataPages automatically display a calendar picker for date/time fields. 'Precision' is specified in the DataPage and is used to configure which part of the date or time part is used.\n\nUse the Options area to specify whether or not to allow blank values in this field.\n\nExamples: Followup_Date, Date_of_Birth\n\nConversion Compatibility: Text (255), Text (64000), Timestamp",
+      "DisplayOrder": 11,
+      "Label": "Type: DATE/TIME",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "Married",
+      "Type": "YES/NO",
+      "Unique": false,
+      "Description": "Data Type: Yes/No\n\nDescription: Used for fields that allow only two possible values: yes or no (true or false).\n\nBy default a Yes/No input field appears as a checkbox in forms.\n\nExamples: Active_User, Requested_Newsletter, Published\n\nConversion Compatibility: Text (255), Text (64000), Number",
+      "DisplayOrder": 12,
+      "Label": "YES/NO",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "Profile_Picture",
+      "Type": "FILE",
+      "Unique": false,
+      "Description": "Data Type: File\n\nDescription: Used to associate files with a record.\n\nFile fields allow your app users to upload files using a web form. Files are stored in your database and can be used in DataPages.\n\nFiles can also be accessed in the Files area of All Assets, organized in a file folder structure.\n\nExamples: Profile_Photo, Resume, Contract\n\nConversion Compatibility: Text (255) may be truncated, Text (64000)",
+      "DisplayOrder": 13,
+      "Label": "FILE",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "OnInsert": true,
+      "OnUpdate": false,
+      "TimeZone": "UTC",
+      "Name": "timestamp",
+      "Type": "TIMESTAMP",
+      "Unique": false,
+      "Description": "Data Type: Timestamp\n\nDescription: A timestamp is a type of smart field that automatically records the date and time when a record is submitted and/or updated.\n\nUse the Options area to configure the time zone and the general behavior of the timestamp.\n\nExamples: Date_Submitted, Date_Updated\n\nConversion Compatibility: Text (255), Text (64000), Date/Time",
+      "DisplayOrder": 14,
+      "Label": "Type: TIMESTAMP",
+      "UniqueAllowNulls": false,
+      "IsFormula": false
+    },
+    {
+      "Name": "Favorite_Words",
+      "Type": "LIST-STRING",
+      "Unique": false,
+      "Description": "Data Type: List\n\nDescription: A special data type for storing a collection of strings, numbers or dates in a single field. (List - String for text values of up to 255 characters.)\n\nExamples: Allergies, Pizza_Toppings\n\nConversion Compatibility: None",
+      "DisplayOrder": 15,
+      "Label": "LIST-STRING",
+      "UniqueAllowNulls": false,
+      "IsFormula": false,
+      "ListField": ["25", "Coffee", "Doggo", "Goober", "Jolly", "Malapropism"]
+    },
+    {
+      "Name": "Favorite_Numbers",
+      "Type": "LIST-NUMBER",
+      "Unique": false,
+      "Description": "Data Type: tbd\n\nDescription: A special data type for storing a collection of strings, numbers or dates in a single field. (List - Number for numeric values of up to 15 digits.)\n\nExamples: Allergies, Pizza_Toppings\n\nConversion Compatibility: None",
+      "DisplayOrder": 16,
+      "Label": "LIST-NUMBER",
+      "UniqueAllowNulls": false,
+      "IsFormula": false,
+      "ListField": [18, 42, 91, 777, 89]
+    },
+    {
+      "Name": "Favorite_Dates",
+      "Type": "LIST-DATE/TIME",
+      "Unique": false,
+      "Description": "Data Type: tbd\n\nDescription: A special data type for storing a collection of strings, numbers or dates in a single field. (List - Date for date or date/time values.)\n\nExamples: Allergies, Pizza_Toppings\n\nConversion Compatibility: None",
+      "DisplayOrder": 17,
+      "Label": "LIST-DATE/TIME",
+      "UniqueAllowNulls": false,
+      "IsFormula": false,
+      "ListField": ["1991-07-30T15:32:57", "2019-01-20T00:00:00", "2020-06-08T00:00:00", "2021-02-02T00:00:00"]
+    }
+  ]
+
+  const creationResult = await caspio.tables.create(tableName, tableColumnDefs);
+  console.log(creationResult);
+  return creationResult;
+}
+
+createTable();
+
+// sample return value
+{
+  status: 201,
+  statusText: 'Created',
+  message: "Table 'my_new_table' has been created successfully."
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of the table</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>fieldDefinitions</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;Object></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Definitions of the fields to be created in the new table</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>Name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The name of the field to be created. Field names must comply with the following naming protocol as specified in <a href="https://howto.caspio.com/tables-and-views/creating-and-modifying-a-table/">Caspio's documentation</a>:</p>
+<p>Must be alphanumeric (<code>a-Z</code>, <code>0-9</code>); can be up to <code>32</code> characters long;</p>
+<p>may include an underscore (<code>_</code>);</p>
+<p>must begin with a letter; spaces are not allowed</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Type</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The data type of the field to be created. Valid types: <code>'AUTONUMBER'</code>, <code>'PREFIXED AUTONUMBER'</code>, <code>'GUID'</code>, <code>'RANDOM ID'</code>, <code>'STRING'</code>, <code>'TEXT'</code>, <code>'PASSWORD'</code>, <code>'NUMBER'</code>, <code>'INTEGER'</code>, <code>'CURRENCY'</code>, <code>'DATE/TIME'</code>, <code>'YES/NO'</code>, <code>'FILE'</code>, <code>'TIMESTAMP'</code>, <code>'LIST-STRING'</code>, <code>'LIST-NUMBER'</code>, <code>LIST-DATE/TIME'</code></p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Unique</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not uniqueness should be enforced on values entered in the field</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>UniqueAllowNulls</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not missing values should be allowed in a field where uniqueness is enforced</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Label</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>A label for the field that will be automatically used in DataPages (maximum of <code>255</code> characters allowed)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Description</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Description of the field (maximum of <code>4000</code> characters allowed)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>DisplayOrder</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Order in which the field is displayed in a table</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>OnInsert</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not a timestamp should record when (i.e., date and time) a record was inserted in a table (defaults to <code>true</code> when the field <code>Type</code> is <code>'TIMESTAMP'</code>)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>OnUpdate</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not a timestamp should record when (i.e., date and time) a record was updated in a table (defaults to <code>false</code> when the field <code>Type</code> is <code>'TIMESTAMP'</code>)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>TimeZone</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Time zone description for a field with <code>Type</code> of <code>'TIMESTAMP'</code> (to see all valid time zone descriptions, visit the design page for any table in your application, select the data type of &quot;Timestamp&quot; for the field, and then view the &quot;Time Zone&quot; selection list in the &quot;Options&quot; menu on the right of the table design page)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Format</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Number format for fields with a <code>Type</code> of <code>'PREFIXED AUTONUMBER'</code>. Possible values for <code>Format</code> option: <code>'1'</code>, <code>'01'</code>, <code>'001'</code>, <code>'0001'</code>, <code>'00001'</code>, <code>'000001'</code>, <code>'0000001'</code></p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Prefix</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Prefix for values in a field with a <code>Type</code> of either <code>'PREFIXED AUTONUMBER'</code> or <code>'RANDOM ID'</code>.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>Length</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Length of random character generation when using a field with a <code>Type</code> of <code>'RANDOM ID'</code>. The length of a field value recorded may exceed the <code>Length</code> specified if a <code>Prefix</code> has been provided (i.e., the <code>Prefix</code> <em>does not</em> count toward the overall length of the random character string generated). Valid values for the <code>Length</code> option: <code>6</code>, <code>7</code>, <code>8</code>, <code>9</code>, <code>10</code>, <code>11</code>, <code>12</code></p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>IsFormula</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Indicates whether or not the field is being used as a formula field. Currently, the Caspio REST API does not enable you to actually specify the formula to be used. The use of this option when creating a field for a table is <em>not</em> recommended.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>ListField</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Array that specifies the list values to be used when the field has a <code>Type</code> of <code>LIST-STRING</code>, <code>LIST-NUMBER</code>, or <code>LIST-DATE/TIME'</code>. All values specified in the array should have a data type corresponding to <code>&lt;data-type&gt;</code> in <code>LIST-&lt;data-type&gt;</code> (i.e., <code>STRING</code>, <code>NUMBER</code>, or <code>DATE/TIME</code>).</p>
+<p>For example, values for a field with a <code>Type</code> of <code>'LIST-STRING'</code> may be specified as <code>[ &quot;2022-25-12&quot;, &quot;Dog&quot;, &quot;2022&quot;, ... ]</code>, a <code>'LIST-NUMBER'</code> as <code>[ 15, 21, ... ]</code>, and a <code>'LIST-DATE/TIME'</code> as <code>[ &quot;1991-07-30T15:32:57&quot;, &quot;2019-01-20&quot;, &quot;2020-06-08T00:00:00&quot;, ... ]</code>.</p>
+<p>If you were to then query the definition of the table to which the fields above were added, then the <code>ListField</code> property for the <code>'LIST-STRING'</code> would appear as <code>{ &quot;1&quot;: &quot;2022-25-12&quot;, &quot;2&quot;: &quot;Dog&quot;, &quot;3&quot;: &quot;2022&quot;, ... }</code>, the <code>'LIST-NUMBER'</code> as <code>{ &quot;1&quot;: 15, &quot;2&quot;: 21, ... }</code>, and the <code>'LIST-DATE/TIME'</code> as <code>{ &quot;1&quot;: &quot;1991-07-30T15:32:57&quot;, &quot;2&quot;: &quot;2019-01-20T00:00:00&quot;, &quot;3&quot;: &quot;2020-06-08T00:00:00&quot;, ... }</code>.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted creation of the specified table (i.e., <code>status</code>, <code>statusText</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 201, statusText: 'Created', message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".createRecord"><span class="type-signature">(static) </span>createRecord<span class="signature">(tableName, recordValuesObj, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;({status: 201, statusText: 'Created', message: string}|{status: 201, statusText: 'Created', message: string, createdRecord: object})>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2235">line 2235</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Inserts record <code>recordValuesObj</code> into table <code>tableName</code> (i.e., creates a record).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// create and return a record in the 'Demo_Users' table with a 'Name' field value of 'Osment'
+// and an 'Email' field value of 'Osment@google.com'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function createTableRecord() {
+  const newRecordObj = {
+    Name: "Osment",
+    Email: "Osment@google.com",
+  }
+  const creationResult = await caspio.tables.createRecord('Demo_Users', newRecordObj, { row: true });
+  console.log(creationResult);
+  return creationResult;
+}
+
+createTableRecord();
+
+// sample return value
+{
+  status: 201,
+  statusText: 'Created',
+  message: "Record successfully created in 'Demo_Users' table.",
+  createdRecord: {
+    User_ID: 'QNFPG6OT',
+    Name: 'Osment',
+    Email: 'Osment@google.com',
+    Role: '',
+    Active: false
+  }
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>recordValuesObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Object with key-value pairs in the form <code>&lt;fieldName&gt;:&lt;updatedFieldValue&gt;</code>; that is, any provided key should match a field's <code>Name</code> to be updated and the key's value should be the intended value for that field with the appropriate data type (e.g., <code>{ &quot;First_Name&quot;: &quot;Updated First Name&quot;, &quot;Last_Name&quot;: &quot;Updated Last Name&quot; }</code>).</p>
+<p><strong>Note (warnings about creating a record with list field values):</strong> If you are trying to create the values for a record's <code>ListField</code> property (i.e., when a record's field has a <code>Type</code> of <code>LIST-STRING|NUMBER|DATE/TIME</code>), then be aware that you may be in for a world of pain (read: not recommended). Why?</p>
+<p>First, you have to know the numeric values of the keys for the key-value pairs that make up a <code>ListField</code>'s definition. For example, suppose the definition of your list field is <code>{ &quot;1&quot;: &quot;Cat&quot;, &quot;2&quot;: &quot;Dog&quot;, &quot;3&quot;: &quot;Frog&quot; }</code>. If you want to have <code>&quot;Dog&quot;</code> and <code>&quot;Frog&quot;</code> as the list values for the created record, then you have to specify the <code>ListField</code> as follows: <code>ListField: [ 2, 3 ]</code>. How are you supposed to know the key values ahead of time? Only by querying the table for its definition with something like the <code>tables.definition</code> method.</p>
+<p>Second, if you happen to specify an index value that does not currently exist in a list field's definition, then you'll get something like the following <code>400</code> error: <code>&quot;Cannot perform operation because the value doesn't match the data type of the following field(s): &lt;field-name&gt;&quot;</code>.</p>
+<p>The whole thing is janky as hell and thus not recommended unless you really know what you're doing (even then you might get unlucky).</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{ 'row': false }</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>The <code>options</code> object currently only supports the <code>row</code> option. If no object is provided, then <code>{ 'row': false }</code> is taken as the default value. If an <code>options</code> object is provided with a <code>row</code> property value of <code>true</code>, then the record created by the query is returned in the response object as the value for the <code>createdRecord</code> property; otherwise, the response object does not have a <code>createdRecord</code> property and no created record is returned.</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>row</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>false</code>
+                
+                </td>
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted creation of the provided record (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, and <code>createdRecord</code> if the <code>options</code> argument was passed as <code>{ 'row': true }</code>)</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;({status: 201, statusText: 'Created', message: string}|{status: 201, statusText: 'Created', message: string, createdRecord: object})></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".definition"><span class="type-signature">(static) </span>definition<span class="signature">(tableName)</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;{Name: string, Type: string, Unique: boolean, UniqueAllowNulls: boolean, Label: string, Description: string, DisplayOrder: number, OnInsert: boolean, OnUpdate, boolean, TimeZone: string, Format: string, Prefix: string, Length: number, IsFormula: boolean, ListField: object}>>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1356">line 1356</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns the definition of table <code>tableName</code> as an array of field definitions (objects).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get the table definition of the 'Demo_Users' table
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getTableDefinition() {
+  const definition = await caspio.tables.definition('Demo_Users');
+  console.log(definition);
+  return definition;
+}
+
+getTableDefinition();
+
+// sample return value
+[
+  {
+    Format: '0U',
+    Prefix: '',
+    Length: 8,
+    Name: 'User_ID',
+    Type: 'RANDOM ID',
+    Unique: true,
+    Description: '',
+    DisplayOrder: 1,
+    Label: '',
+    UniqueAllowNulls: false,
+    IsFormula: false
+  },
+  {
+    Name: 'Name',
+    Type: 'STRING',
+    Unique: false,
+    Description: '',
+    DisplayOrder: 2,
+    Label: '',
+    UniqueAllowNulls: false,
+    IsFormula: false
+  },
+  {
+    Name: 'Email',
+    Type: 'STRING',
+    Unique: true,
+    Description: '',
+    DisplayOrder: 3,
+    Label: '',
+    UniqueAllowNulls: false,
+    IsFormula: false
+  },
+  {
+    Name: 'Password',
+    Type: 'PASSWORD',
+    Unique: false,
+    Description: '',
+    DisplayOrder: 4,
+    Label: '',
+    UniqueAllowNulls: false,
+    IsFormula: false
+  },
+  {
+    Name: 'Role',
+    Type: 'STRING',
+    Unique: false,
+    Description: '',
+    DisplayOrder: 5,
+    Label: '',
+    UniqueAllowNulls: false,
+    IsFormula: false
+  },
+  {
+    Name: 'Active',
+    Type: 'YES/NO',
+    Unique: false,
+    Description: '',
+    DisplayOrder: 6,
+    Label: '',
+    UniqueAllowNulls: false,
+    IsFormula: false
+  }
+]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Array of field definitions (objects) where the properties of the objects depend on the field definition (e.g., a field with <code>Type</code> of <code>'RANDOM ID'</code> may have a <code>Length</code> property as part of the field definition object whereas other fields would not)</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;Array.&lt;{Name: string, Type: string, Unique: boolean, UniqueAllowNulls: boolean, Label: string, Description: string, DisplayOrder: number, OnInsert: boolean, OnUpdate, boolean, TimeZone: string, Format: string, Prefix: string, Length: number, IsFormula: boolean, ListField: object}>></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".deleteField"><span class="type-signature">(static) </span>deleteField<span class="signature">(tableName, fieldName)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 200, statusText: 'OK', message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1614">line 1614</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Deletes field <code>fieldName</code> from table <code>tableName</code> (this may not be possible if other objects depend on this field such as triggered actions, authentications, etc.).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// remove the field 'Sample_Field' from table 'Demo_Users'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function deleteTableField() {
+  const deleteResult = await caspio.tables.deleteField('Demo_Users', 'Sample_Field');
+  console.log(deleteResult);
+  return deleteResult;
+}
+
+deleteTableField();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: "The field 'Sample_Field' in table 'Demo_Users' was successfully deleted."
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>fieldName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of field (case-insensitive)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted removal of the specified field from the specified table (i.e., <code>status</code>, <code>statusText</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 200, statusText: 'OK', message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".deletePasswordFieldValue"><span class="type-signature">(static) </span>deletePasswordFieldValue<span class="signature">(tableName, passwordFieldName, whereClause)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 200, statusText: 'OK', recordsAffected: number, message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1762">line 1762</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Resets (i.e., removes) the password value in field <code>passwordFieldName</code> of table <code>tableName</code> for all records that match the provided <code>WHERE</code> clause query (i.e., <code>whereClause</code>).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// removes the value in field 'Password' of table 'Demo_Users'
+// for all records that have an Email field value of 'Edd36@yahoo.com'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function removePasswordValue() {
+  const whereClause = `Email = 'Edd36@yahoo.com'`;
+  const removeResult = await caspio.tables.deletePasswordFieldValue('Demo_Users', 'Password', whereClause);
+  console.log(removeResult);
+  return removeResult;
+}
+
+removePasswordValue();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  recordsAffected: 1,
+  message: "Password value(s) successfully reset (i.e., removed) for field 'Password' in table 'Demo_Users' for 1 record(s)."
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>passwordFieldName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of field with <code>Type</code> of <code>'PASSWORD'</code> in table <code>tableName</code> to target (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>whereClause</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p><code>WHERE</code> clause (i.e., query to match records to be affected)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted resetting or removal of all password values for the matched records (i.e., <code>status</code>, <code>statusText</code>, <code>recordsAffected</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 200, statusText: 'OK', recordsAffected: number, message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".deleteRecords"><span class="type-signature">(static) </span>deleteRecords<span class="signature">(tableName, whereClause)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 200, statusText: 'OK', message: string, recordsAffected: number}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2298">line 2298</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Deletes all records from table <code>tableName</code> that match <code>whereClause</code> (i.e., the provided <code>WHERE</code> clause).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// delete all records from the 'Demo_Users' table that have
+// an 'Email' field value of 'Osment@google.com'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function deleteTableRecords() {
+  const whereClause = `Email = 'Osment@google.com'`;
+  const deleteResult = await caspio.tables.deleteRecords('Demo_Users', whereClause);
+  console.log(deleteResult);
+  return deleteResult;
+}
+
+deleteTableRecords();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: "1 record(s) in table 'Demo_Users' successfully deleted.",
+  recordsAffected: 1
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>whereClause</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p><code>WHERE</code> clause (i.e., query to match records to be affected)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted deletion of the records matched by the <code>WHERE</code> clause (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, and <code>recordsAffected</code>)</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 200, statusText: 'OK', message: string, recordsAffected: number}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".description"><span class="type-signature">(static) </span>description<span class="signature">(tableName)</span><span class="type-signature"> &rarr; {Promise.&lt;{Name: string, Note: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1254">line 1254</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns the description of the table (i.e., a description of table <code>tableName</code>).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get the description of the 'Demo_Users' table
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getTableDescription() {
+  const description = await caspio.tables.description('Demo_Users');
+  console.log(description);
+  return description;
+}
+
+getTableDescription();
+
+// sample return value
+{ Name: 'Demo_Users', Note: '' }</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of the table (case-insensitive)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with the name of the table (i.e., <code>Name</code>) and a note about the table (i.e., <code>Note</code>)</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{Name: string, Note: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".fieldDefinition"><span class="type-signature">(static) </span>fieldDefinition<span class="signature">(tableName)</span><span class="type-signature"> &rarr; {Promise.&lt;{Name: string, Type: string, Unique: boolean, UniqueAllowNulls: boolean, Label: string, Description: string, DisplayOrder: number, OnInsert: boolean, OnUpdate, boolean, TimeZone: string, Format: string, Prefix: string, Length: number, IsFormula: boolean, ListField: object}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1486">line 1486</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns the definition of field <code>fieldName</code> from table <code>tableName</code>.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get the definition of the field 'Sample_Field' from the 'Demo_Users' table
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getFieldDef() {
+  const fieldDef = await caspio.tables.fieldDefinition('Demo_Users', 'Sample_Field');
+  console.log(fieldDef);
+  return fieldDef;
+}
+
+getFieldDef();
+
+// sample return value
+{
+  Name: 'Sample_Field',
+  Type: 'STRING',
+  Unique: false,
+  Description: 'Sample data field to collext smaller textual data (max 255 characters)',
+  DisplayOrder: 1,
+  Label: 'Sample Field',
+  UniqueAllowNulls: false,
+  IsFormula: false
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Field definition (object) where the properties of the object depend on the field definition (e.g., a field with <code>Type</code> of <code>'RANDOM ID'</code> may have a <code>Length</code> property as part of the field definition object whereas other fields would not)</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{Name: string, Type: string, Unique: boolean, UniqueAllowNulls: boolean, Label: string, Description: string, DisplayOrder: number, OnInsert: boolean, OnUpdate, boolean, TimeZone: string, Format: string, Prefix: string, Length: number, IsFormula: boolean, ListField: object}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getRecords"><span class="type-signature">(static) </span>getRecords<span class="signature">(tableName, selectionCriteriaObj<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;Object>>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1947">line 1947</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns <em>all</em> records from the table that satisfy the provided query criteria (i.e., <code>selectionCriteriaObj</code>). Pagination is automatically handled to ensure all records matching the provided criteria are returned.</p>
+<p><strong>Note (potential strain on memory resources):</strong> If the query provided results in many thousands or millions of records needing to be returned, then this may cause a strain on memory resources (since all returned records are held in memory when using this method). Consider using the <code>getRecordsStreamToFile</code> method in such an instance where all returned records can be streamed to a file in batches of <code>1000</code> records (i.e., the maximum number of records Caspio's REST API will respond with for any request).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get records from the 'Demo_Users' table using the query criteria
+// provided in the criteriaObj object
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getTableRecords() {
+  const criteriaObj = {
+    select: 'Email, ROW_NUMBER() OVER (PARTITION BY Role ORDER BY User_ID) AS rnk_num',
+    where: `Name LIKE '%ed%'`,
+    orderBy: 'rnk_num'
+  }
+  const tableRecords = await caspio.tables.getRecords('Demo_Users', criteriaObj);
+  console.log(tableRecords);
+  return tableRecords;
+}
+
+getTableRecords();
+
+// sample return value
+[
+  { "Email": "Edwardo.Roberts@gmail.com", "rnk_num": 1 },
+  { "Email": "Frederick_Sanford@yahoo.com", "rnk_num": 1 },
+  { "Email": "Winifred.Stamm41@hotmail.com", "rnk_num": 2 },
+  { "Email": "Fred.Daugherty41@hotmail.com", "rnk_num": 2 },
+  { "Email": "Alan.Schroeder@gmail.com", "rnk_num": 3 },
+  ...
+  { "Email": "Eliane.Schroeder@hotmail.com", "rnk_num": 81 },
+  { "Email": "Jedediah_Bednar33@yahoo.com", "rnk_num": 81 },
+  { "Email": "Edyth3@gmail.com", "rnk_num": 82 },
+  { "Email": "Magdalen84@hotmail.com", "rnk_num": 82 },
+  { "Email": "Edyth_Mayer@yahoo.com", "rnk_num": 83 },
+  { "Email": "Eddie_Predovic14@hotmail.com", "rnk_num": 84 },
+  { "Email": "Francesca_Medhurst39@yahoo.com", "rnk_num": 85 },
+  { "Email": "Jedediah.Mitchell@hotmail.com", "rnk_num": 86 },
+  { "Email": "Wilfred_Funk20@gmail.com", "rnk_num": 87 },
+  { "Email": "Mohamed.Hammes@hotmail.com", "rnk_num": 88 },
+  { "Email": "Frieda_Strosin@gmail.com", "rnk_num": 89 },
+  { "Email": "Ted.Anderson94@yahoo.com", "rnk_num": 90 },
+  { "Email": "Jedediah.Runolfsson60@yahoo.com", "rnk_num": 91 },
+  { "Email": "Destiny.Schroeder@hotmail.com", "rnk_num": 92 },
+  { "Email": "Edwina.Barrows@yahoo.com", "rnk_num": 93 },
+  { "Email": "Carlie_Bednar@gmail.com", "rnk_num": 94 },
+  { "Email": "Ebony25@gmail.com", "rnk_num": 95 },
+  { "Email": "Lexi81@hotmail.com", "rnk_num": 96 },
+  { "Email": "Frederique.Kuhn86@gmail.com", "rnk_num": 97 },
+  { "Email": "Winifred_Aufderhar63@yahoo.com", "rnk_num": 98 },
+  { "Email": "Edd_Carroll0@hotmail.com", "rnk_num": 99 }
+]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>selectionCriteriaObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{}</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Object that specifies the criteria to be used in constructing the query. Valid properties include the following: <code>select</code>, <code>where</code>, <code>groupBy</code>, and <code>orderBy</code>.</p>
+<p>In large part, the query being constructed resembles most queries constructed using SQL (specifically the SQL Server dialect since Caspio uses SQL Server under the hood). Consult a Caspio rep to find which version your account is running on.</p>
+<p><strong>Note:</strong> Usage of window functions when expecting more than <code>1000</code> records is problematic due to being rate-limited at 1000 records per request (hence there's not an effective window within which to operate).</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>select</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'*'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>List of fields separated by comma, where fields may either be fields directly from the specified table or could be a combination of numerous other things:</p>
+<p>aliases such as <code>First_Name AS name</code>;</p>
+<p>subqueries that return one value such as <code>(SELECT COUNT(User_ID) FROM Demo_Users) AS demo_users_count</code>;</p>
+<p>correlated subqueries such as <code>(SELECT Email from Users WHERE User_ID = Registrations.User_ID)</code> where <code>Registrations</code> is the value of the <code>tableName</code> argument (i.e., the singular table from which records are being pulled);</p>
+<p>window functions such as <code>ROW_NUMBER() OVER(PARTITION BY Company, Department ORDER BY Salary DESC, Experience DESC, User_ID) AS comp_dept_sal_rnk</code> to compute salary rankings within departments of a company first by salary amount, years of experience, and finally the <code>User_ID</code> if needed to break ties.</p>
+<p>The possibilities are endless--there are numerous possibilities with which to experiment.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>where</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>WHERE</code> clause. This is used to find the desired records. You may use subqueries in this clause (e.g., <code>User_ID IN (SELECT ... FROM ... )</code> among other examples)) as well as <code>AND</code>, <code>OR</code>, etc. Much power can be leveraged by using this clause effectively.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>groupBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>GROUP BY</code> clause. Useful for grouping records by specified fields to consequently make aggregate calculations.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>orderBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>ORDER BY</code> clause. Useful for having SQL Server do the heavy lifting concerning sorting before the response gets transmitted across the wire.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>An array of objects representing the records retrieved from the specified table (i.e., <code>tableName</code>) that were obtained by the query provided (i.e., <code>selectionCriteriaObj</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;Array.&lt;Object>></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getRecordsPaginated"><span class="type-signature">(static) </span>getRecordsPaginated<span class="signature">(tableName, selectionCriteriaObj<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;Object>>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1850">line 1850</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns records in a paginated fashion from table <code>tableName</code> that satisfy the provided query criteria (i.e., <code>selectionCriteriaObj</code>).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get the default of 100 records from the Demo_Users table using
+// the query criteria provided in the criteriaObj object
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getPaginatedTableRecords() {
+  const criteriaObj = {
+    select: 'Email, ROW_NUMBER() OVER (PARTITION BY Role ORDER BY User_ID) AS rnk_num',
+    where: `Name LIKE '%ed%'`,
+    orderBy: 'rnk_num'
+  }
+  const tableRecords = await caspio.tables.getRecordsPaginated('Demo_Users', criteriaObj);
+  console.log(tableRecords);
+  return tableRecords;
+}
+
+getPaginatedTableRecords();
+
+// sample return value
+[
+  { Email: 'Frederick_Sanford@yahoo.com', rnk_num: 1 },
+  { Email: 'Edwardo.Roberts@gmail.com', rnk_num: 1 },
+  { Email: 'Fred.Daugherty41@hotmail.com', rnk_num: 2 },
+  { Email: 'Winifred.Stamm41@hotmail.com', rnk_num: 2 },
+  { Email: 'Winifred.Friesen@hotmail.com', rnk_num: 3 },
+  { Email: 'Alan.Schroeder@gmail.com', rnk_num: 3 },
+  ...
+  { Email: 'Meredith.Botsford50@hotmail.com', rnk_num: 48 },
+  { Email: 'Braeden63@gmail.com', rnk_num: 48 },
+  { Email: 'Eddie_Tromp@hotmail.com', rnk_num: 49 },
+  { Email: 'Ned39@gmail.com', rnk_num: 49 },
+  { Email: 'Edna92@hotmail.com', rnk_num: 50 },
+  { Email: 'Soledad.Collins84@yahoo.com', rnk_num: 50 }
+]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>selectionCriteriaObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{}</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Object that specifies the criteria to be used in constructing the query. Valid properties include the following: <code>select</code>, <code>where</code>, <code>groupBy</code>, <code>orderBy</code>, <code>limit</code>, <code>pageNumber</code>, and <code>pageSize</code>.</p>
+<p>In large part, the query being constructed resembles most queries constructed using SQL (specifically the SQL Server dialect since Caspio uses SQL Server under the hood). Consult a Caspio rep to find which version your account is running on.</p>
+<p><strong>Note:</strong> Usage of window functions (e.g., <code>ROW_NUMBER()</code>) when expecting more than <code>1000</code> records is problematic due to being rate-limited by Caspio's servers at 1000 records per request (hence there's not an effective window within which to operate).</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>select</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'*'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>List of fields separated by comma, where fields may either be fields directly from the specified table or could be a combination of numerous other things:</p>
+<p>aliases such as <code>First_Name AS name</code>;</p>
+<p>subqueries that return one value such as <code>(SELECT COUNT(*) FROM Demo_Users) AS demo_users_count</code>;</p>
+<p>correlated subqueries such as <code>(SELECT Email from Users WHERE User_ID = Registrations.User_ID)</code> when <code>Registrations</code> is the value of the <code>tableName</code> argument (i.e., the singular table from which records are being pulled);</p>
+<p>window functions such as <code>ROW_NUMBER() OVER(PARTITION BY Company, Department ORDER BY Salary DESC, Experience DESC, User_ID) AS comp_dept_sal_rnk</code> to compute salary rankings within departments of a company first by salary amount, years of experience, and finally the <code>User_ID</code> if needed to break ties.</p>
+<p>The possibilities are endless--there are numerous possibilities with which to experiment.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>where</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>WHERE</code> clause. This is used to find the desired records. You may use subqueries in this clause (e.g., <code>User_ID IN (SELECT ... FROM ... )</code> among other examples) as well as <code>AND</code>, <code>OR</code>, etc. Much power can be leveraged by using this clause effectively.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>groupBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>GROUP BY</code> clause. Useful for grouping records by specified fields to consequently make aggregate calculations.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>orderBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>ORDER BY</code> clause. Useful for having SQL Server do the heavy lifting concerning sorting before the response gets transmitted across the wire.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>limit</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>100</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Specifies the maximum number of records to be returned. Maximum possible value of <code>1000</code> with a default value of <code>100</code>. Skipped if either <code>pageNumber</code> or <code>pageSize</code> has been specified.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>pageNumber</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Page number corresponding to the pagination that results from the initial query. Defaults to <code>1</code> if <code>pageSize</code> has been specified but <code>pageNumber</code> has not.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>pageSize</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Number of records per page (possible from <code>5</code> to <code>1000</code>). Defaults to <code>25</code> if <code>pageNumber</code> has been specified but <code>pageSize</code> has not.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>An array of objects representing the records retrieved from the specified table (i.e., <code>tableName</code>) that were obtained by the query provided (i.e., <code>selectionCriteriaObj</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;Array.&lt;Object>></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getRecordsStreamToFile"><span class="type-signature">(static) </span>getRecordsStreamToFile<span class="signature">(tableName, filePath, selectionCriteriaObj<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {void}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2034">line 2034</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Streams <em>all</em> records from the table (i.e., <code>tableName</code>) that satisfy the provided query criteria (i.e., <code>selectionCriteriaObj</code>) to a file (i.e., <code>filePath</code>). Pagination is automatically handled to ensure all records matching the provided criteria are streamed to the specified file. Records are streamed in batches of <code>1000</code> records (Caspio's rate limit for returning records). Useful when you need to process huge amounts of data but do not want to hold everything in memory.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// stream all records from the 'Demo_Users' table to the 'StreamedDemoUsers.json' file
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function streamTableRecordsToFile() {
+  await caspio.tables.getRecordsStreamToFile('Demo_Users', 'StreamedDemoUsers.json');
+}
+
+streamTableRecordsToFile();
+
+// no return value</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>filePath</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Path of file to write to (file path should have an extension of <code>.json</code>)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>selectionCriteriaObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{}</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Object that specifies the criteria to be used in constructing the query. Valid properties include the following: <code>select</code>, <code>where</code>, <code>groupBy</code>, and <code>orderBy</code>.</p>
+<p>In large part, the query being constructed resembles most queries constructed using SQL (specifically the SQL Server dialect since Caspio uses SQL Server under the hood). Consult a Caspio rep to find which version your account is running on.</p>
+<p><strong>Note:</strong> Usage of window functions when expecting more than <code>1000</code> records is problematic due to being rate-limited at 1000 records per request (hence there's not an effective window within which to operate).</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>select</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'*'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>List of fields separated by comma, where fields may either be fields directly from the specified table or could be a combination of numerous other things:</p>
+<p>aliases such as <code>First_Name AS name</code>;</p>
+<p>subqueries that return one value such as <code>(SELECT COUNT(User_ID) FROM Demo_Users) AS demo_users_count</code>;</p>
+<p>correlated subqueries such as <code>(SELECT Email from Users WHERE User_ID = Registrations.User_ID)</code> where <code>Registrations</code> is the value of the <code>tableName</code> argument (i.e., the singular table from which records are being pulled);</p>
+<p>window functions such as <code>ROW_NUMBER() OVER(PARTITION BY Company, Department ORDER BY Salary DESC, Experience DESC, User_ID) AS comp_dept_sal_rnk</code> to compute salary rankings within departments of a company first by salary amount, years of experience, and finally the <code>User_ID</code> if needed to break ties.</p>
+<p>The possibilities are endless--there are numerous possibilities with which to experiment.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>where</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>WHERE</code> clause. This is used to find the desired records. You may use subqueries in this clause (e.g., <code>User_ID IN (SELECT ... FROM ... )</code> among other examples)) as well as <code>AND</code>, <code>OR</code>, etc. Much power can be leveraged by using this clause effectively.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>groupBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>GROUP BY</code> clause. Useful for grouping records by specified fields to consequently make aggregate calculations.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>orderBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>ORDER BY</code> clause. Useful for having SQL Server do the heavy lifting concerning sorting before the response gets transmitted across the wire.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>No value is returned</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">void</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".listing"><span class="type-signature">(static) </span>listing<span class="signature">()</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;string>>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line951">line 951</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns an array of strings where each string represents an available table for a Caspio account.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get list of all table names linked to a Caspio account
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getTableNames() {
+  const tableNames = await caspio.tables.listing();
+  console.log(tableNames);
+  return tableNames;
+}
+
+getTableNames();
+
+// sample return value
+[
+  ...,
+  'Demo_Physicians',
+  ...
+]</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Array of strings representing table names for a Caspio account</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;Array.&lt;string>></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".passwordFields"><span class="type-signature">(static) </span>passwordFields<span class="signature">(tableName)</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;string>>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1655">line 1655</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns a list of the names of all password fields in table <code>tableName</code> (i.e., an array of the names of whatever fields are present in table <code>tableName</code> that have a <code>Type</code> of <code>'PASSWORD'</code>).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get list of all fields with a Type of 'PASSWORD' from the table 'Demo_Users'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getTablePasswordFields() {
+  const passwordFields = await caspio.tables.passwordFields('Demo_Users');
+  console.log(passwordFields);
+  return passwordFields;
+}
+
+getTablePasswordFields();
+
+// sample return value
+[ 'Password' ]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Array of strings representing the names of fields present in the specified table that have a <code>Type</code> of <code>'PASSWORD'</code></p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;Array.&lt;string>></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".updateFieldDefinition"><span class="type-signature">(static) </span>updateFieldDefinition<span class="signature">(tableName, fieldName, updatedFieldDef)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 200, statusText: 'OK', message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1567">line 1567</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Updates field <code>fieldName</code> of table <code>tableName</code> using properties and values of the <code>updatedFieldDef</code> object.</p>
+<p><strong>Note 1 (importance of <code>New</code> prefix):</strong> It is critically important that <em>all</em> updated field properties be prepended with <code>New</code> in the provided <code>updatedFieldDef</code> object; otherwise, an error will be thrown. For example, if you want to update the <code>Type</code> of a field from <code>'STRING'</code> to <code>'TEXT'</code>, then you need to specify the <code>updatedFieldDef</code> object as <code>{ ..., 'NewType': 'TEXT', ... }</code> as opposed to <code>{ ..., 'Type': 'TEXT', ... }</code>. The presence of <code>'New'</code> is required.</p>
+<p><strong>Note 2 (warning about list types):</strong> Be wary of updating a field with a <code>Type</code> of <code>LIST-STRING|NUMBER|DATE/TIME</code> for reasons outlined in this method's documentation.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// update the field 'Sample_Field' in table 'Demo_Users'
+// to have a Type of 'TEXT' instead of 'STRING'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function updateTableField() {
+  const updatedFieldDef = {
+    "NewType": "TEXT"
+  }
+  const updateResult = await caspio.tables.updateFieldDefinition('Demo_Users', 'Sample_Field', updatedFieldDef);
+  console.log(updateResult);
+}
+
+updateTableField();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: "The field 'Sample_Field' in table 'Demo_Users' was successfully updated."
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>fieldName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of field (case-sensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>updatedFieldDef</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Definition of field to update in table <code>tableName</code> (note again the importance of prepending field properties with <code>New</code> such as <code>'NewType'</code>, <code>'NewUnique'</code>, etc.).</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>NewName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The name of the field to be created. Field names must comply with the following naming protocol as specified in <a href="https://howto.caspio.com/tables-and-views/creating-and-modifying-a-table/">Caspio's documentation</a>:</p>
+<p>Must be alphanumeric (<code>a-Z</code>, <code>0-9</code>);</p>
+<p>can be up to <code>32</code> characters long; may include an underscore (<code>_</code>);</p>
+<p>must begin with a letter; spaces are not allowed</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewType</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>The type of the field to be created (i.e., data type). Valid types: <code>'AUTONUMBER'</code>, <code>'PREFIXED AUTONUMBER'</code>, <code>'GUID'</code>, <code>'RANDOM ID'</code>, <code>'STRING'</code>, <code>'TEXT'</code>, <code>'PASSWORD'</code>, <code>'NUMBER'</code>, <code>'INTEGER'</code>, <code>'CURRENCY'</code>, <code>'DATE/TIME'</code>, <code>'YES/NO'</code>, <code>'FILE'</code>, <code>'TIMESTAMP'</code>, <code>'LIST-STRING'</code>, <code>'LIST-NUMBER'</code>, <code>LIST-DATE/TIME'</code></p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewUnique</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not uniqueness should be enforced on values entered in the field</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewUniqueAllowNulls</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not missing values should be allowed in a field where uniqueness is enforced</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewLabel</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>A label for the field that will be automatically used in DataPages (maximum of <code>255</code> characters allowed)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewDescription</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Description of the field (maximum of <code>4000</code> characters allowed)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewDisplayOrder</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Order in which the field is displayed in a table</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewOnInsert</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not a timestamp should record when (i.e., date and time) a record was inserted in a table (defaults to <code>true</code> when the field <code>Type</code> is <code>'TIMESTAMP'</code>)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewOnUpdate</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Determines whether or not a timestamp should record when (i.e., date and time) a record was updated in a table (defaults to <code>false</code> when the field <code>Type</code> is <code>'TIMESTAMP'</code>)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewTimeZone</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Time zone description for a field with <code>Type</code> of <code>'TIMESTAMP'</code> (to see all valid time zone descriptions, visit the design page for any table in your application, select the data type of &quot;Timestamp&quot; for the field, and then view the &quot;Time Zone&quot; selection list in the &quot;Options&quot; menu on the right of the table design page)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewFormat</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Number format for fields with a <code>Type</code> of <code>'PREFIXED AUTONUMBER'</code>. Possible values for <code>Format</code> option: <code>'1'</code>, <code>'01'</code>, <code>'001'</code>, <code>'0001'</code>, <code>'00001'</code>, <code>'000001'</code>, <code>'0000001'</code></p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewPrefix</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Prefix for values in a field with a <code>Type</code> of either <code>'PREFIXED AUTONUMBER'</code> or <code>'RANDOM ID'</code>.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewLength</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Length of random character generation when using a field with a <code>Type</code> of <code>'RANDOM ID'</code>. The length of a field value recorded may exceed the <code>Length</code> specified if a <code>Prefix</code> has been provided (i.e., the <code>Prefix</code> <em>does not</em> count toward the overall length of the random character string generated). Valid values for the <code>Length</code> option: <code>6</code>, <code>7</code>, <code>8</code>, <code>9</code>, <code>10</code>, <code>11</code>, <code>12</code></p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>NewListField</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Array that specifies the list values to be used when the field has a <code>Type</code> of <code>LIST-STRING</code>, <code>LIST-NUMBER</code>, or <code>LIST-DATE/TIME'</code>. All values specified in the array should have a data type corresponding to <code>&lt;data-type&gt;</code> in <code>LIST-&lt;data-type&gt;</code> (i.e., <code>STRING</code>, <code>NUMBER</code>, or <code>DATE/TIME</code>). Note that the values specified in the update will effectively <em>remove</em> the previous values.</p>
+<p>For example, values for a field with a <code>Type</code> of <code>'LIST-STRING'</code> may be specified as <code>[ &quot;2022-25-12&quot;, &quot;Dog&quot;, &quot;2022&quot;, ... ]</code>, a <code>'LIST-NUMBER'</code> as <code>[ 15, 21, ... ]</code>, and a <code>'LIST-DATE/TIME'</code> as <code>[ &quot;1991-07-30T15:32:57&quot;, &quot;2019-01-20&quot;, &quot;2020-06-08T00:00:00&quot;, ... ]</code>.</p>
+<p>If you were to then query the definition of the table to which the fields above were added, then the <code>ListField</code> property for the <code>'LIST-STRING'</code> would appear as <code>{ &quot;num1&quot;: &quot;2022-25-12&quot;, &quot;num2&quot;: &quot;Dog&quot;, &quot;num3&quot;: &quot;2022&quot;, ... }</code>, the <code>'LIST-NUMBER'</code> as <code>{ &quot;num1&quot;: 15, &quot;num2&quot;: 21, ... }</code>, and the <code>'LIST-DATE/TIME'</code> as <code>{ &quot;num1&quot;: &quot;1991-07-30T15:32:57&quot;, &quot;num2&quot;: &quot;2019-01-20T00:00:00&quot;, &quot;num3&quot;: &quot;2020-06-08T00:00:00&quot;, ... }</code>, where all of the <code>num</code> values depend on what the previous definition was of the <code>ListField</code>.</p>
+<p><strong>Note:</strong> The definition for an updated <code>ListField</code> is a bit wonky, and how the object keys are created for the new definition depends on the following three possibilities concerning each element as specified in the <code>NewListField</code> array:</p>
+<ul>
+<li>element currently exists in <code>ListField</code>: Nothing happens.</li>
+<li>element does not exist in <code>ListField</code> but did at some point in the past: The original key-value pair is effectively <em>restored</em>; that is, if the current <code>ListField</code> definition is <code>{ &quot;1&quot;: &quot;Cat&quot;, &quot;4&quot;: &quot;Frog&quot;, &quot;6&quot;: &quot;Mouse&quot; }</code> but included the key-value pair <code>&quot;2&quot;: &quot;Dog&quot;</code> at some point in the past, then specifying <code>NewListField</code> as <code>[ &quot;Cat&quot;, &quot;Dog&quot;, &quot;Frog&quot; ]</code> will result in a new <code>ListField</code> definition of <code>{ &quot;1&quot;: &quot;Cat&quot;, &quot;2&quot;: &quot;Dog&quot;, &quot;4&quot;: &quot;Frog&quot; }</code>. The key-value pair <code>&quot;2&quot;: &quot;Dog&quot;</code> is effectively <em>restored</em>.</li>
+<li>element does not exist in <code>ListField</code> and never has: A completely <em>new</em> key-value pair is created, where the numeric value of the key will be the highest possible value that is next in sequence; that is, if <code>[ &quot;Cat&quot;, &quot;Dog&quot;, &quot;Frog&quot; ]</code> was the array originally specified for <code>ListField</code>, with corresponding definition <code>{ &quot;1&quot;: &quot;Cat&quot;, &quot;2&quot;: &quot;Dog&quot;, &quot;3&quot;: &quot;Frog&quot; }</code>, then specifying <code>NewListField</code> as <code>[ &quot;Dog&quot;, &quot;Cow&quot; ]</code> would result in the following <code>ListField</code> definition: <code>{ &quot;2&quot;: &quot;Dog&quot;, &quot;4&quot;: &quot;Cow&quot; }</code>.</li>
+</ul></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted update of the specified field for the specified table (i.e., <code>status</code>, <code>statusText</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 200, statusText: 'OK', message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".updatePasswordFieldValue"><span class="type-signature">(static) </span>updatePasswordFieldValue<span class="signature">(tableName, passwordFieldName, newPasswordValue, whereClause)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 200, statusText: 'OK', recordsAffected: number, message: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line1704">line 1704</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Updates the password field <code>passwordFieldName</code> in table <code>tableName</code> with a value of <code>newPasswordValue</code> for all records that are matched by the provided <code>WHERE</code> clause query (i.e., <code>whereClause</code>).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// update the value in field 'Password' of table 'Demo_Users'
+// to 'myPassword!' for all records in table 'Demo_Users' that have
+// an Email field value of 'Edd36@yahoo.com'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function updateTablePassword() {
+  const whereClause = `Email = 'Edd36@yahoo.com'`;
+  const updateResult = await caspio.tables.updatePasswordFieldValue('Demo_Users', 'Password', 'myPassword!', whereClause);
+  console.log(updateResult);
+  return updateResult;
+}
+
+updateTablePassword();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  recordsAffected: 1,
+  message: "Password value(s) successfully updated for field 'Password' in table 'Demo_Users' for 1 record(s)."
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>passwordFieldName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of field in table <code>tableName</code> with a <code>Type</code> of <code>'PASSWORD'</code> to target (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>newPasswordValue</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>New password value</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>whereClause</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p><code>WHERE</code> clause (i.e., query to match records to be affected)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted update of all password values for the matched records (i.e., <code>status</code>, <code>statusText</code>, <code>recordsAffected</code>, and <code>message</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 200, statusText: 'OK', recordsAffected: number, message: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".updateRecords"><span class="type-signature">(static) </span>updateRecords<span class="signature">(tableName, whereClause, newRecordValuesObj, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;({status: 200, statusText: 'OK', message: string, recordsAffected: number}|{status: 200, statusText: 'OK', message: string, recordsAffected: number, updatedRecords: Array.&lt;Object>})>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2149">line 2149</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Updates all records in table <code>tableName</code> matched by <code>whereClause</code> (i.e., the provided <code>WHERE</code> clause) with values from the <code>newRecordValuesObj</code> object.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// Update the 'Name' field in the 'Demo_Users' table to have a value of
+// 'Eddy Rath' for all records that have an 'Email' field with value 'Edd36@yahoo.com'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function updateTableRecords() {
+  const whereClause = `Email = 'Edd36@yahoo.com'`;
+  const newValuesObj = {
+    Name: "Eddy Rath"
+  }
+  const updateResult = await caspio.tables.updateRecords('Demo_Users', whereClause, newValuesObj, { rows: true });
+  console.log(updateResult);
+  return updateResult;
+}
+
+updateTableRecords();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: "1 record(s) affected. Note: If the number of affected records is higher than expected, then be sure to check any triggered actions associated with the 'Demo_Users' table, which can cause various records in other tables to be affected.",
+  recordsAffected: 1,
+  updatedRecords: [
+    {
+      User_ID: '7NQC2PHT',
+      Name: 'Eddy Rath',
+      Email: 'Edd36@yahoo.com',
+      Role: 'Admin',
+      Active: false
+    }
+  ]
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>whereClause</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p><code>WHERE</code> clause (i.e., query to match records to be affected)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>newRecordValuesObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Object with key-value pairs in the form <code>&lt;fieldName&gt;:&lt;updatedFieldValue&gt;</code>; that is, any provided key should match a field's <code>Name</code> to be updated and the key's value should be the <em>updated</em> value for that field (e.g., <code>{ &quot;First_Name&quot;: &quot;Updated First Name&quot;, &quot;Last_Name&quot;: &quot;Updated Last Name&quot; }</code>).</p>
+<p><strong>Note (warnings about updating a record's list field values):</strong> If you are trying to update the values for a record's <code>ListField</code> property (i.e., when a record's field has a <code>Type</code> of <code>LIST-STRING|NUMBER|DATE/TIME</code>), then be aware that you may be in for a world of pain (read: not recommended). Why?</p>
+<p>First, you have to know the numeric values of the keys for the key-value pairs that make up a <code>ListField</code>'s definition. For example, suppose the definition of your list field is <code>{ &quot;1&quot;: &quot;Cat&quot;, &quot;2&quot;: &quot;Dog&quot;, &quot;3&quot;: &quot;Frog&quot; }</code>. If you want to have <code>&quot;Dog&quot;</code> and <code>&quot;Frog&quot;</code> as the list values for the updated record(s), then you have to specify the <code>ListField</code> as follows: <code>ListField: [ 2, 3 ]</code>. How are you supposed to know the key values ahead of time? Only by querying the table for its definition with something like the <code>tables.definition</code> method.</p>
+<p>Second, if you happen to specify an index value that does not currently exist in a list field's definition, then you'll get something like the following <code>400</code> error: <code>&quot;Cannot perform operation because the value doesn't match the data type of the following field(s): &lt;field-name&gt;&quot;</code>.</p>
+<p>Third, if you update records by <em>only</em> specifying fields with a <code>Type</code> of <code>LIST-STRING|NUMBER|DATE/TIME</code> (i.e., all field values you are updating are of the list type variety), then the <code>RecordsAffected</code> property on the response object will read <code>0</code> even if numerous records were updated. This is obviously a bug.</p>
+<p>Fourth (as if you needed another reason to avoid updating values in list fields), if <code>{ 'rows': true }</code> is specified on the request while updating list field values <em>only</em>, then Caspio's servers throw a 500 error. The reason <em>why</em> is not entirely clear. This is also obviously a bug.</p>
+<p>The whole thing is janky as hell and thus not recommended unless you really know what you're doing (even then you might get unlucky).</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{ 'rows': false }</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>The <code>options</code> object currently only supports the <code>rows</code> option. If no object is provided, then <code>{ 'rows': false }</code> is taken as the default value. If an <code>options</code> object is provided with a <code>rows</code> property value of <code>true</code>, then the records updated by the query are returned in the response object as the value for the <code>updatedRecords</code> property; otherwise, the response object does not have an <code>updatedRecords</code> property and no updated records are returned.</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>rows</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>false</code>
+                
+                </td>
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted update of the records matched by the <code>WHERE</code> clause (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, <code>recordsAffected</code>, and <code>updatedRecords</code> if the <code>options</code> argument was passed as <code>{ 'rows': true }</code>)</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;({status: 200, statusText: 'OK', message: string, recordsAffected: number}|{status: 200, statusText: 'OK', message: string, recordsAffected: number, updatedRecords: Array.&lt;Object>})></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

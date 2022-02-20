@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Tutorial: Automate renewal of access token (Mac) - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav class="wrap">
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/farlowdw/caspio-sdk" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Applications.html">Applications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppKey">dpDeployAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppName">dpDeployAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByKeys">dpDeployByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByNames">dpDeployByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByKeys">dpDeployCodeByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByNames">dpDeployCodeByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppKey">dpDisableAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppName">dpDisableAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByKeys">dpDisableByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByNames">dpDisableByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppKey">dpPropertiesByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppName">dpPropertiesByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByKeys">dpPropertiesByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByNames">dpPropertiesByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByName">propertiesByName</a></li></ul></li><li><a href="Authentications.html">Authentications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Authentications.html#.getAccessToken">getAccessToken</a></li></ul></li><li><a href="Files.html">Files</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Files.html#.deleteByKey">deleteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.deleteByPath">deleteByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByKey">downloadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByPath">downloadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByKey">metadataByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByPath">metadataByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByKey">uploadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByPath">uploadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByKey">uploadOverwriteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByPath">uploadOverwriteByPath</a></li></ul></li><li><a href="Tables.html">Tables</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tables.html#.addField">addField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.create">create</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.definition">definition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteField">deleteField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deletePasswordFieldValue">deletePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.fieldDefinition">fieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.passwordFields">passwordFields</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateFieldDefinition">updateFieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updatePasswordFieldValue">updatePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateRecords">updateRecords</a></li></ul></li><li><a href="Tasks.html">Tasks</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tasks.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByName">propertiesByName</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByKey">runByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByName">runByName</a></li></ul></li><li><a href="Utilities.html">Utilities</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Utilities.html#.copyRecord">copyRecord</a></li></ul></li><li><a href="Views.html">Views</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Views.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Views.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Views.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Views.html#.updateRecords">updateRecords</a></li></ul></li></ul><h3>Tutorials</h3><ul><li><a href="tutorial-1-authentication-token-tutorial.html">Obtain an authentication token</a></li><li><a href="tutorial-2-authentication-automation-tutorial.html">Automate renewal of access token (Mac)</a></li><li><a href="tutorial-3-database-generation.html">Run Arbitrarily Complex SQL Queries Against Your Caspio Data</a></li><li><a href="tutorial-4-caspio-data-reference.html">Caspio Data Reference</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Tutorial: Automate renewal of access token (Mac)</h1>
+    
+
+    <section>
+
+<header>
+    
+
+    <h2>Automate renewal of access token (Mac)</h2>
+</header>
+
+<article>
+    <p>The fact that Caspio access tokens are valid for only <code>24</code> hours poses a maintenance problem:</p>
+<blockquote>
+<p><em>How can we always ensure we have a valid access token to issue properly authenticated requests against Caspio's REST API?</em></p>
+</blockquote>
+<p>Manually updating the access token is a valid solution, albeit impractical. Devising a programmatic way of renewing access tokens is our best bet. Essentially, we need to <a href="https://betterprogramming.pub/schedule-node-js-scripts-on-your-mac-with-launchd-a7fca82fbf02">schedule a Node.js script</a> to run on a recurring basis (i.e., within every <code>24</code> hours). This tutorial assumes you are developing on a Mac. Specifically, this tutorial has been tested successfully on a Mac running on macOS Monterey 12.1.</p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#external-dependencies">External Dependencies</a></li>
+<li><a href="#necessary-files---descriptions">Necessary Files - Descriptions</a>
+<ul>
+<li><a href="#files-at-project-root">Files at Project Root</a></li>
+<li><a href="#launch-agent-file">Launch Agent File</a></li>
+</ul>
+</li>
+<li><a href="#necessary-files---contents">Necessary Files - Contents</a>
+<ul>
+<li><a href="#.env"><code>.env</code></a></li>
+<li><a href="#caspio.auth.stdout.log"><code>caspio.auth.stdout.log</code></a></li>
+<li><a href="#caspio.auth.stderr.log"><code>caspio.auth.stderr.log</code></a></li>
+<li><a href="#caspio-refresh-access-token.js"><code>caspio-refresh-access-token.js</code></a></li>
+<li><a href="#caspio-config.js"><code>caspio-config.js</code></a></li>
+<li><a href="#com.caspiorenewtoken.daemon.plist"><code>com.caspioRenewToken.daemon.plist</code></a></li>
+</ul>
+</li>
+<li><a href="#starting-and-stopping-the-launch-agent">Starting and Stopping the Launch Agent</a></li>
+</ul>
+<h2 id="external-dependencies">External Dependencies</h2>
+<p>This tutorial requires two external dependencies, namely <a href="https://www.npmjs.com/package/dotenv"><code>dotenv</code></a> and <a href="https://www.npmjs.com/package/replace-in-file"><code>replace-in-file</code></a>:</p>
+<pre class="prettyprint source lang-BASH"><code>npm i dotenv replace-in-file
+</code></pre>
+<h2 id="necessary-files---descriptions">Necessary Files - Descriptions</h2>
+<p>Please use the file structure outlined below to follow along and/or reproduce your own configuration.</p>
+<h3 id="files-at-project-root">Files at Project Root</h3>
+<p>We will create the following files at the root of our project folder:</p>
+<ul>
+<li>
+<p><code>.env</code>: Holds environment variables that should be kept private (e.g., Caspio credentials).</p>
+</li>
+<li>
+<p><code>caspio.auth.stdout.log</code>: Logs when an access token was successfully updated.</p>
+</li>
+<li>
+<p><code>caspio.auth.stderr.log</code>: Logs when an access token update was attempted (and failed).</p>
+</li>
+<li>
+<p><code>caspio-refresh-access-token.js</code>: Node.js script that will run on a recurring schedule.</p>
+</li>
+<li>
+<p><code>caspio-config.js</code>: Configuration file for Caspio credentials. This file will be <code>require</code>d so we can easily make token requests. For ease of use, this file should also be <code>require</code>d elsewhere in our project when utilizing the <code>caspio-sdk</code> package:</p>
+<pre class="prettyprint source lang-JS"><code>const caspioCredentials = require('./caspio-config');
+// for making access token requests
+const getNewAccessToken = require('caspio-sdk/auth')(caspioCredentials);
+// for general package use
+const caspio = require('caspio-sdk')(caspioCredentials);
+</code></pre>
+</li>
+</ul>
+<h3 id="launch-agent-file">Launch Agent File</h3>
+<p>Assuming we are user <code>someuser</code> (this can usually be ascertained by running <code>echo $USER</code> in most shells), we will create the following file in the <code>/Users/someuser/Library/LaunchAgents</code> directory:</p>
+<ul>
+<li><code>com.caspioRenewToken.daemon.plist</code>: <a href="https://en.wikipedia.org/wiki/Property_list">Property list</a> file that specifies how automation of the <code>caspio-refresh-access-token.js</code> script will be configured.</li>
+</ul>
+<p>As <a href="https://betterprogramming.pub/schedule-node-js-scripts-on-your-mac-with-launchd-a7fca82fbf02">this Node.js script automation guide</a> details:</p>
+<blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Launchd#launchd"><code>launchd</code></a> is a tool for running daemons and agents on macOS. If you aren't familiar with these terms, a <a href="https://en.wikipedia.org/wiki/Daemon_(computing)">daemon</a> is a system-wide service that is always running in the background, while agents are services that are executed on user-specific requests. [...]</p>
+<p>We will be making user-specific requests to run a Node.js script, so we will make use of launch agents. These agents allow a user to define a task by using a property list (<code>.plist</code>) file that can be executed on a regular schedule as set by the user. <code>launchd</code> can automate tasks both periodically (using a set interval between executions) and on a calendar-based schedule, allowing for flexibility in the way you schedule your scripts to run.</p>
+</blockquote>
+<p>To begin automation, our goal will be to put together an effective <code>.plist</code> file and then to load the <code>.plist</code> file into <code>launchd</code> to set the automation schedule in motion.</p>
+<h2 id="necessary-files---contents">Necessary Files - Contents</h2>
+<p>Start by creating the files at the project root folder:</p>
+<pre class="prettyprint source lang-BASH"><code>touch .env \
+caspio.auth.stdout.log \
+caspio.auth.stderr.log \
+caspio-config.js \
+caspio-refresh-access-token.js
+</code></pre>
+<p>Then create the preference list file that will automate the execution of our script on a recurring schedule (swap out <code>someuser</code> with your username):</p>
+<pre class="prettyprint source lang-BASH"><code>touch /Users/someuser/Library/LaunchAgents/com.caspioRenewToken.daemon.plist
+</code></pre>
+<p>The following sections detail the contents of each file described in the previous section. Modify contents to suit your functional and preferential needs.</p>
+<h3 id=".env"><code>.env</code></h3>
+<pre class="prettyprint source"><code>CASPIO_ACCESS_TOKEN=*****
+CASPIO_ACCOUNT_ID=*****
+CASPIO_CLIENT_ID=*****
+CASPIO_CLIENT_SECRET=*****
+CASPIO_TOKEN_ENDPOINT_URL=*****
+</code></pre>
+<p>Replace each <code>*****</code> block with the described credential. Generally speaking, try to avoid spaces before or after the <code>=</code> symbol in the <code>.env</code> file.</p>
+<h3 id="caspio.auth.stdout.log"><code>caspio.auth.stdout.log</code></h3>
+<p>No contents until successful script execution. Will eventually contain lines such as the following:</p>
+<pre class="prettyprint source"><code>2022-02-19T18:26:34 &lt;- CASPIO_ACCESS_TOKEN last updated
+</code></pre>
+<h3 id="caspio.auth.stderr.log"><code>caspio.auth.stderr.log</code></h3>
+<p>No contents until failed script execution. Will eventually contain lines such as</p>
+<pre class="prettyprint source"><code>2022-02-19T18:27:44 &lt;- CASPIO_ACCESS_TOKEN last attempted update (failed)
+</code></pre>
+<p>or</p>
+<pre class="prettyprint source"><code>2022-02-19T18:29:38 &lt;- CASPIO_ACCESS_TOKEN access token acquired but not written
+</code></pre>
+<p>where the first example likely indicates your machine executed the script but could not obtain an access token (e.g., no internet connection, Caspio server issue, etc.) while the second example likely indicates your <code>.env</code> file is not properly configured (i.e., an access token was obtained but nothing was updated in the <code>.env</code> file since no variable value was matched to replace).</p>
+<h3 id="caspio-refresh-access-token.js"><code>caspio-refresh-access-token.js</code></h3>
+<pre class="prettyprint source lang-JS"><code>const fsp = require('fs').promises;
+const caspioCredentials = require('./caspio-config');
+const getNewAccessToken = require('caspio-sdk/auth')(caspioCredentials);
+const replaceInFile = require('replace-in-file');
+
+async function writeNewAccessToken(envVariableName) {
+  // replaces value for variable in .env file
+  // Example: suppose the following line exists in the .env file:
+  // CASPIO_ACCESS_TOKEN=vc389QtgGxl8Np48FSjUxqtPzDfROdU_C_y4WPqB
+  // the 'vc389QtgGxl8Np48FSjUxqtPzDfROdU_C_y4WPqB' value will be
+  // replaced by the new access_token value obtained by getNewAccessToken
+  const regReplace = `(?&lt;=${envVariableName} *= *)([-a-zA-Z0-9._~+/]+=*)+(?:\\\\n|$)`;
+  const re = new RegExp(regReplace, 'm');
+  const isoDateStr = (new Date()).toISOString().replace(/\.([^.]*)$/, '');
+  const reqMsgSuccess = `${isoDateStr} &lt;- ${envVariableName} last updated\n`;
+  const reqMsgWarning = `${isoDateStr} &lt;- ${envVariableName} access token acquired but not written\n`;
+  const reqMsgFailire = `${isoDateStr} &lt;- ${envVariableName} last attempted update (failed)\n`;
+  try {
+    const { access_token: newAccessToken } = await getNewAccessToken();
+    const replaceOptions = {
+      files: './.env',
+      from: re,
+      to: newAccessToken,
+    };
+    const result = await replaceInFile(replaceOptions);
+    const resultStatus = result[0].hasChanged;
+    if (resultStatus) {
+      await fsp.writeFile('./caspio.auth.stdout.log', reqMsgSuccess, { flag: 'a' });
+    } else {
+      await fsp.writeFile('./caspio.auth.stderr.log', reqMsgWarning, { flag: 'a' });
+    }
+  } catch(error) {
+    await fsp.writeFile('./caspio.auth.stderr.log', reqMsgFailire, { flag: 'a' });
+  }
+}
+
+writeNewAccessToken('CASPIO_ACCESS_TOKEN');
+</code></pre>
+<p>The last line, <code>writeNewAccessToken('CASPIO_ACCESS_TOKEN');</code>, is important since we want this script to be run <em>automatically</em>. If you are managing more than one Caspio account, then you can imagine adding the following at the end of the <code>caspio-refresh-access-token.js</code> file:</p>
+<pre class="prettyprint source lang-JS"><code>writeNewAccessToken('CASPIO_ACCESS_TOKEN_ACCOUNT_1');
+...
+writeNewAccessToken('CASPIO_ACCESS_TOKEN_ACCOUNT_N');
+</code></pre>
+<h3 id="caspio-config.js"><code>caspio-config.js</code></h3>
+<pre class="prettyprint source lang-JS"><code>const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '.env') });
+
+const caspioCredentials = {
+  accessToken: process.env.CASPIO_ACCESS_TOKEN,
+  accountID: process.env.CASPIO_ACCOUNT_ID,
+  clientID: process.env.CASPIO_CLIENT_ID,
+  clientSecret: process.env.CASPIO_CLIENT_SECRET,
+  tokenEndpointURL: process.env.CASPIO_TOKEN_ENDPOINT_URL,
+};
+
+module.exports = caspioCredentials;
+</code></pre>
+<p>As mentioned at the beginning of this tutorial, the <code>caspio-config.js</code> file can be put to good use well beyond acquiring new access tokens, namely by <code>require</code>ing the file whenever utilizing the <code>caspio-sdk</code> package:</p>
+<pre class="prettyprint source lang-JS"><code>const caspioCredentials = require('./caspio-config');
+const caspio = require('caspio-sdk')(caspioCredentials);
+</code></pre>
+<h3 id="com.caspiorenewtoken.daemon.plist"><code>com.caspioRenewToken.daemon.plist</code></h3>
+<pre class="prettyprint source lang-XML"><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;>
+&lt;plist version=&quot;1.0&quot;>
+  &lt;dict>
+
+    &lt;key>Label&lt;/key>
+    &lt;string>com.caspioRenewToken.daemon.plist&lt;/string>
+
+    &lt;key>RunAtLoad&lt;/key>
+    &lt;true/>
+
+    &lt;key>StartCalendarInterval&lt;/key>
+    &lt;dict>
+      &lt;key>Hour&lt;/key>
+      &lt;integer>3&lt;/integer>
+      &lt;key>Minute&lt;/key>
+      &lt;integer>0&lt;/integer>
+    &lt;/dict>
+
+    &lt;key>EnvironmentVariables&lt;/key>
+    &lt;dict>
+      &lt;key>PATH&lt;/key>
+      &lt;string>&lt;![CDATA[/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin]]>&lt;/string>
+    &lt;/dict>
+
+    &lt;key>WorkingDirectory&lt;/key>
+    &lt;string>{directory where the script caspio-refresh-access-token.js lives}&lt;/string>
+
+    &lt;key>ProgramArguments&lt;/key>
+    &lt;array>
+      &lt;string>{path to node executable}&lt;/string>
+      &lt;string>caspio-refresh-access-token.js&lt;/string>
+    &lt;/array>
+
+  &lt;/dict>
+&lt;/plist>
+</code></pre>
+<p>Update the contents within <code>{}</code> in the file above with details specific to your development environment.</p>
+<p>Some notes about the configuration above by <code>key</code> (this <a href="https://www.launchd.info/"><code>launchd</code> tutorial</a> may be helpful for reference):</p>
+<ul>
+<li>
+<p><strong><code>Label</code></strong>: The name of the daemon (identifies the job and has to be unique for the <code>launchd</code> instance).</p>
+<p>In the file above, <code>com.caspioRenewToken.daemon.plist</code> identifies the job to be executed.</p>
+</li>
+<li>
+<p><strong><code>RunAtLoad</code></strong>: This is one of several optional keys specifying <em>when</em> the job should be run (in this case right after it has been loaded). Only when <code>RunAtLoad</code> or <code>KeepAlive</code> (not used above) have been specified will <code>launchd</code>  start the job unconditionally when it has been loaded.</p>
+<p><code>true</code> means what it sounds like: we want the job to be executed right after it has been loaded.</p>
+</li>
+<li>
+<p><strong><code>StartCalendarInterval</code></strong>: Apple's <code>launchd.plist</code> man page, accessible by running <code>man launchd.plist</code>, has the following helpful information (<a href="https://alvinalexander.com/mac-os-x/launchd-plist-examples-startinterval-startcalendarinterval/">this guide</a> provides a less technical approach): This optional key causes the job to be started every calendar interval as specified. Missing arguments are considered to be wildcard. The semantics are similar to <code>crontab(5)</code> in how firing dates are specified. Multiple dictionaries may be specified in an array to schedule multiple calendar intervals. Unlike <code>cron</code> which skips job invocations when the computer is asleep, <code>launchd</code> will start the job the next time the computer wakes up.  If multiple intervals transpire before the computer is woken, those events will be coalesced into one event upon wake from sleep.</p>
+<p>An <code>Hour</code> of <code>3</code> and <code>Minute</code> of <code>0</code> indicate the job should be executed at 3:00 in the morning each day.</p>
+</li>
+<li>
+<p><strong><code>EnvironmentVariables</code></strong>: The environment path is set, which is useful if a program uses other commands.</p>
+<p><code>&lt;![CDATA[/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin]]&gt;</code> is simply boilerplate.</p>
+</li>
+<li>
+<p><strong><code>WorkingDirectory</code></strong>: Specify the directory from which the job should be executed.</p>
+<p>As expressed by the braces, the <code>string</code> value here should be the absolute path of your project's root folder that should contain the <code>caspio-refresh-access-token.js</code> script to be executed.</p>
+</li>
+<li>
+<p><strong><code>ProgramArguments</code></strong>: The argument vector to be passed to the job when a process is spawned. In English:</p>
+<p>The first <code>string</code> value should be the path to the <code>node</code> executable, something you should be able to ascertain by running <code>which node</code> (or by specifying your own preferred path to a <code>node</code> executable). The second <code>string</code> value should be the file name of the script we want to run when the job is executed, namely <code>caspio-refresh-access-token.js</code> in this case.</p>
+<p>If our first <code>string</code> value is <code>/usr/local/bin/node</code>, then our script will ultimately be run as follows when our job executes:</p>
+<pre class="prettyprint source lang-BASH"><code>/usr/local/bin/node caspio-refresh-access-token.js
+</code></pre>
+</li>
+</ul>
+<p>It is worth noting that we might normally be inclined to include <code>StandardErrorPath</code> and <code>StandardOutPath</code> keys for logging purposes (as opposed to directly within our script as is being done currently), but <a href="https://stackoverflow.com/a/58936196/5209533">include them at your own risk</a>.</p>
+<h2 id="starting-and-stopping-the-launch-agent">Starting and Stopping the Launch Agent</h2>
+<p><strong>Start:</strong> You may start the launch agent (i.e., load the <code>.plist</code> file into <code>launchd</code>) as follows:</p>
+<pre class="prettyprint source lang-BASH"><code>launchctl load ~/Library/LaunchAgents/com.caspioRenewToken.daemon.plist
+</code></pre>
+<p><strong>Stop:</strong> To stop the schedule, run the following:</p>
+<pre class="prettyprint source lang-BASH"><code>launchctl unload ~/Library/LaunchAgents/com.caspioRenewToken.daemon.plist
+</code></pre>
+<p><strong>Edit:</strong> To edit the launch agent, run the following:</p>
+<pre class="prettyprint source lang-BASH"><code>code ~/Library/LaunchAgents/com.caspioRenewToken.daemon.plist
+</code></pre>
+<p>Note that the editing line above only works if you have <a href="https://code.visualstudio.com/">VSCode</a> installed as an editor. Of course, you can swap out <code>code</code> above to open the <code>.plist</code> file in an editor of your choice if you do not use VSCode.</p>
+<p><strong>Shell aliases (for convenience):</strong> It may be useful to define <a href="https://www.ibm.com/docs/en/aix/7.1?topic=commands-creating-command-alias-alias-shell-command">shell aliases</a> to handle the actions referenced above:</p>
+<pre class="prettyprint source lang-BASH"><code>alias caspioAutoAuthStart='launchctl load ~/Library/LaunchAgents/com.caspioRenewToken.daemon.plist'
+alias caspioAutoAuthStop='launchctl unload ~/Library/LaunchAgents/com.caspioRenewToken.daemon.plist'
+alias caspioAutoAuthEdit='code ~/Library/LaunchAgents/com.caspioRenewToken.daemon.plist'
+</code></pre>
+</article>
+
+</section>
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

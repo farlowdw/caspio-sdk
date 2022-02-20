@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Utilities - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav class="wrap">
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/farlowdw/caspio-sdk" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Applications.html">Applications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppKey">dpDeployAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppName">dpDeployAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByKeys">dpDeployByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByNames">dpDeployByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByKeys">dpDeployCodeByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByNames">dpDeployCodeByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppKey">dpDisableAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppName">dpDisableAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByKeys">dpDisableByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByNames">dpDisableByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppKey">dpPropertiesByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppName">dpPropertiesByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByKeys">dpPropertiesByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByNames">dpPropertiesByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByName">propertiesByName</a></li></ul></li><li><a href="Authentications.html">Authentications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Authentications.html#.getAccessToken">getAccessToken</a></li></ul></li><li><a href="Files.html">Files</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Files.html#.deleteByKey">deleteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.deleteByPath">deleteByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByKey">downloadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByPath">downloadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByKey">metadataByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByPath">metadataByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByKey">uploadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByPath">uploadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByKey">uploadOverwriteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByPath">uploadOverwriteByPath</a></li></ul></li><li><a href="Tables.html">Tables</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tables.html#.addField">addField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.create">create</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.definition">definition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteField">deleteField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deletePasswordFieldValue">deletePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.fieldDefinition">fieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.passwordFields">passwordFields</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateFieldDefinition">updateFieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updatePasswordFieldValue">updatePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateRecords">updateRecords</a></li></ul></li><li><a href="Tasks.html">Tasks</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tasks.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByName">propertiesByName</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByKey">runByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByName">runByName</a></li></ul></li><li><a href="Utilities.html">Utilities</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Utilities.html#.copyRecord">copyRecord</a></li></ul></li><li><a href="Views.html">Views</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Views.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Views.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Views.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Views.html#.updateRecords">updateRecords</a></li></ul></li></ul><h3>Tutorials</h3><ul><li><a href="tutorial-1-authentication-token-tutorial.html">Obtain an authentication token</a></li><li><a href="tutorial-2-authentication-automation-tutorial.html">Automate renewal of access token (Mac)</a></li><li><a href="tutorial-3-database-generation.html">Run Arbitrarily Complex SQL Queries Against Your Caspio Data</a></li><li><a href="tutorial-4-caspio-data-reference.html">Caspio Data Reference</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Utilities</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        Utilities
+        </h2>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line4113">line 4113</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+            
+                <div class="description usertext"><p>Utility methods. More coming soon.</p></div>
+            
+
+            
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".copyRecord"><span class="type-signature">(static) </span>copyRecord<span class="signature">(tableName, whereClauseToFindRecord, recPropUpdateObj<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;Object>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line4232">line 4232</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Copies a record from table <code>tableName</code> by identifying a copy source (i.e., a single record matched by a <code>WHERE</code> clause, <code>whereClauseToFindRecord</code>) and then creating the same or slightly modified record in table <code>tableName</code>.</p>
+<p>The record that servers as a copy source may have its field values updated/changed by providing an object, <code>recPropUpdateObj</code>, which should have as its keys the field names in need of value updates and key values as the desired new values. Only fields that are editable should be specified in <code>recPropUpdateObj</code> (i.e., you cannot change or update a field that has a <code>Type</code> of <code>'AUTONUMBER'</code>, a formula field, etc.).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// Copy a record and change some of its values
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+// original record corresponding to email 'Lelah.Hoppe@gmail.com' appears below
+// we want to copy this record but change values for a few fields:
+// `First_Name`, `Last_Name`, `Title`, `Email`, `Profile_Photo`, `About_Section`
+// (note that the `Password` field value cannot be copied)
+const lelahRecord = {
+  Physician_ID: '6T2C9HW8',
+  Date_Created: '2020-10-07T04:54:19',
+  First_Name: 'Lelah',
+  Last_Name: 'Hoppe',
+  Title: 'Adolescent Medicine Specialist',
+  Full_Name: 'Lelah Hoppe',
+  Gender: 'Other',
+  Email: 'Lelah.Hoppe@gmail.com',
+  Account_Status: true,
+  Profile_Status: false,
+  Profile_Photo: '/Demo/LelahHoppe.png',
+  Specialties: {
+    '3': 'Family Medicine',
+    '6': 'Obstetrics and Gynecology',
+    '8': 'Pain Management',
+    '9': 'Pathology'
+  },
+  Accepting_New_Patients: true,
+  About_Section: 'Exercitationem ... labore.',
+  Affiliations: 'American College of Endocrinology\n' +
+    'The Endocrine Society\n' +
+    'American Diabetes Association',
+  Board_Certifications: 'American Board of Pediatrics',
+  Education: 'David Geffen School of Medicine - MD\n' +
+    'Yale - Residency, Ophthalmology\n' +
+    'Yale - Fellowship, Cataracts and Refractive Surgery',
+  Languages: { '2': 'English', '4': 'French', '7': 'Japanese', '9': 'Spanish' },
+  Office_Name: 'Davis Family Medical Group',
+  Office_Address: '0519 Mustafa Via',
+  Office_City: 'New Bradlyhaven',
+  Office_State: 'MI',
+  Office_Zip: '50198',
+  Office_Phone: '967-841-6054',
+  ViewCount: 3654
+}
+
+async function copyTableRecord() {
+  const newFieldValues = {
+    First_Name: 'Pam',
+    Last_Name: 'Halpert',
+    Title: 'Artist',
+    Email: 'pam.halpert@gmail.com',
+    Profile_Photo: '',
+    About_Section: 'I grew up in Scranton and I am super cool!'
+  }
+  const whereClause = `Email = 'Lelah.Hoppe@gmail.com'`;
+  const copiedRecord = await caspio.utils.copyRecord('Demo_Physicians', whereClause, newFieldValues);
+  console.log(copiedRecord);
+  return copiedRecord;
+}
+
+copyTableRecord();
+
+// sample return value
+{
+  Physician_ID: '0R50T9HF',
+  Date_Created: '2020-10-07T04:54:19',
+  First_Name: 'Pam',
+  Last_Name: 'Halpert',
+  Title: 'Artist',
+  Full_Name: 'Pam Halpert',
+  Gender: 'Other',
+  Email: 'pam.halpert@gmail.com',
+  Account_Status: true,
+  Profile_Status: false,
+  Profile_Photo: '',
+  Specialties: {
+    '3': 'Family Medicine',
+    '6': 'Obstetrics and Gynecology',
+    '8': 'Pain Management',
+    '9': 'Pathology'
+  },
+  Accepting_New_Patients: true,
+  About_Section: 'I grew up in Scranton and I am super cool!',
+  Affiliations: 'American College of Endocrinology\n' +
+    'The Endocrine Society\n' +
+    'American Diabetes Association',
+  Board_Certifications: 'American Board of Pediatrics',
+  Education: 'David Geffen School of Medicine - MD\n' +
+    'Yale - Residency, Ophthalmology\n' +
+    'Yale - Fellowship, Cataracts and Refractive Surgery',
+  Languages: { '2': 'English', '4': 'French', '7': 'Japanese', '9': 'Spanish' },
+  Office_Name: 'Davis Family Medical Group',
+  Office_Address: '0519 Mustafa Via',
+  Office_City: 'New Bradlyhaven',
+  Office_State: 'MI',
+  Office_Zip: '50198',
+  Office_Phone: '967-841-6054',
+  ViewCount: 3654
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tableName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of table (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>whereClauseToFindRecord</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p><code>WHERE</code> clause to unambiguously determine the record to be copied. If no record is found, then an error is thrown to indicate this. If more than one record is found, then an error is thrown to indicate that a record could not be unambiguously copied.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>recPropUpdateObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{}</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Object with key-value pairs in the form <code>&lt;fieldName&gt;:&lt;newFieldValue&gt;</code> where <code>fieldName</code> is the <code>Name</code> of a field from table <code>tableName</code> and <code>newFieldValue</code> is a <em>new</em> or <em>modified</em> value to be used for the newly copied record instead of the original value(s) from the copy source.</p>
+<p>This object effectively allows you to change, modify, or update editable values from the copy source before creating the copied/modified record. Attempting to write to read-only fields (e.g., fields with type <code>'TIMESTAMP'</code>, <code>'AUTONUMBER'</code>, etc., or formula fields) will cause an error.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>The copied record</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;Object></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

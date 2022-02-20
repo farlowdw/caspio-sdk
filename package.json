@@ -1,0 +1,37 @@
+{
+	"name": "caspio-sdk",
+	"version": "1.0.0",
+	"main": "src/index.js",
+	"description": "Software development kit (SDK) and REST API wrapper for Caspio REST API (v2)",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint ./src",
+		"lint-fix": "eslint ./src --fix"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/farlowdw/caspio-sdk.git"
+	},
+	"keywords": [
+		"caspio",
+		"sdk",
+    "database",
+		"api-wrapper"
+	],
+	"author": "Daniel W. Farlow",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/farlowdw/caspio-sdk/issues"
+	},
+	"homepage": "https://github.com/farlowdw/caspio-sdk#readme",
+	"dependencies": {
+		"axios": "^0.24.0",
+		"form-data": "^4.0.0",
+		"JSONStream": "^1.3.5"
+	},
+	"devDependencies": {
+		"eslint": "^8.9.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.25.4"
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"docdash": {
+		"static": true,
+		"sort": true,
+		"sectionOrder": [
+			"Classes",
+			"Modules",
+			"Externals",
+			"Events",
+			"Namespaces",
+			"Mixins",
+			"Tutorials",
+			"Interfaces"
+		],
+		"search": true,
+		"collapse": true,
+		"typedefs": true,
+		"wrap": true,
+		"removeQuotes": "none",
+		"scripts": [],
+		"menu": {
+			"Github repo": {
+				"href": "https://github.com/farlowdw/caspio-sdk",
+				"target": "_blank",
+				"class": "menu-item",
+				"id": "repository"
+			}
+		}
+	},
+	"opts": {
+		"access": "all",
+		"readme": "../README.md",
+		"template": "node_modules/docdash",
+    "tutorials": "./tutorials"
+	},
+	"plugins": ["plugins/markdown"],
+	"markdown": {
+		"hardwrap": true,
+    "idInHeadings": true
+	},
+	"templates": {
+		"default": {
+			"includeDate": false,
+			"useLongnameInNav": true,
+      "staticFiles": {
+        "include": ["./tutorials/images"]
+      }
+		}
+	},
+	"source": {
+		"include": ["../auth", "../src"],
+		"includePattern": ".+.js?$"
+	}
+}

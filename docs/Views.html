@@ -1,0 +1,3012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Views - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav class="wrap">
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/farlowdw/caspio-sdk" target="_blank" class="menu-item" id="repository" >Github repo</a></h2><h3>Namespaces</h3><ul><li><a href="Applications.html">Applications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppKey">dpDeployAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployAllByAppName">dpDeployAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByKeys">dpDeployByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployByNames">dpDeployByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByKeys">dpDeployCodeByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDeployCodeByNames">dpDeployCodeByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppKey">dpDisableAllByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableAllByAppName">dpDisableAllByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByKeys">dpDisableByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpDisableByNames">dpDisableByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppKey">dpPropertiesByAppKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByAppName">dpPropertiesByAppName</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByKeys">dpPropertiesByKeys</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.dpPropertiesByNames">dpPropertiesByNames</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Applications.html#.propertiesByName">propertiesByName</a></li></ul></li><li><a href="Authentications.html">Authentications</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Authentications.html#.getAccessToken">getAccessToken</a></li></ul></li><li><a href="Files.html">Files</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Files.html#.deleteByKey">deleteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.deleteByPath">deleteByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByKey">downloadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.downloadByPath">downloadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByKey">metadataByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.metadataByPath">metadataByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByKey">uploadByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadByPath">uploadByPath</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByKey">uploadOverwriteByKey</a></li><li data-type='method' style='display: none;'><a href="Files.html#.uploadOverwriteByPath">uploadOverwriteByPath</a></li></ul></li><li><a href="Tables.html">Tables</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tables.html#.addField">addField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.create">create</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.definition">definition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteField">deleteField</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deletePasswordFieldValue">deletePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.fieldDefinition">fieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.passwordFields">passwordFields</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateFieldDefinition">updateFieldDefinition</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updatePasswordFieldValue">updatePasswordFieldValue</a></li><li data-type='method' style='display: none;'><a href="Tables.html#.updateRecords">updateRecords</a></li></ul></li><li><a href="Tasks.html">Tasks</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Tasks.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByKey">propertiesByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.propertiesByName">propertiesByName</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByKey">runByKey</a></li><li data-type='method' style='display: none;'><a href="Tasks.html#.runByName">runByName</a></li></ul></li><li><a href="Utilities.html">Utilities</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Utilities.html#.copyRecord">copyRecord</a></li></ul></li><li><a href="Views.html">Views</a><ul class='methods'><li data-type='method' style='display: none;'><a href="Views.html#.createRecord">createRecord</a></li><li data-type='method' style='display: none;'><a href="Views.html#.deleteRecords">deleteRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.description">description</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecords">getRecords</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsPaginated">getRecordsPaginated</a></li><li data-type='method' style='display: none;'><a href="Views.html#.getRecordsStreamToFile">getRecordsStreamToFile</a></li><li data-type='method' style='display: none;'><a href="Views.html#.listing">listing</a></li><li data-type='method' style='display: none;'><a href="Views.html#.updateRecords">updateRecords</a></li></ul></li></ul><h3>Tutorials</h3><ul><li><a href="tutorial-1-authentication-token-tutorial.html">Obtain an authentication token</a></li><li><a href="tutorial-2-authentication-automation-tutorial.html">Automate renewal of access token (Mac)</a></li><li><a href="tutorial-3-database-generation.html">Run Arbitrarily Complex SQL Queries Against Your Caspio Data</a></li><li><a href="tutorial-4-caspio-data-reference.html">Caspio Data Reference</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">Views</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+        Views
+        </h2>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2323">line 2323</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+            
+                <div class="description usertext"><p>Methods for views.</p></div>
+            
+
+            
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id=".createRecord"><span class="type-signature">(static) </span>createRecord<span class="signature">(viewName, recordValuesObj, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;({status: 201, statusText: 'Created', message: string}|{status: 201, statusText: 'Created', message: string, createdRecord: object})>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2948">line 2948</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Creates a record in view <code>viewName</code> (generally not a recommended method to use due to the notes that follow). Directly creating a record in a <em>table</em> should always be the preferred route since creating a record in a view ultimately results in creating a single record in an underlying table.</p>
+<p><strong>Note 1 (required conditions for creating a record in a view):</strong> Records may only be created in a view if the view itself only contains a single table or if a particular table in the view has been specified as <em>editable</em> within the view's configuration. This can be done by selecting a table under the <em>&quot;Do you need to edit data using this View?&quot;</em> question when editing a view within Caspio.</p>
+<p><strong>Note 2 (creating a record in a view where the record does not appear in the view):</strong> It is possible for a record to be &quot;created&quot; in the view but not appear as the value for the <code>createdRecord</code> property of the response object. How? If the record is no longer included in the view after its creation, then the record does not appear as having been created in the view. How could this happen? If a field value is being used to make the record appear in the view, such as the <code>Account_Status</code> field needing to be <code>true</code> in a <code>Demo_Physicians_Active</code> view, then creating a record where the <code>Account_Status</code> field value was <code>false</code> would result in the record being excluded from the view but created in the underlying <code>Demo_Physicians</code> table; hence, the record would correspondingly be excluded from the <code>createdRecord</code> property of the response object.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// create one record that remains in the view after creation (i.e., email of "oscarmartinez@google.com")
+// create another record that ends up being filtered out of the view (i.e., email of "jimhalpert@google.com")
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function createViewRecord() {
+  const newRecordObjGood = {
+    First_Name: "Oscar",
+    Last_Name: "Martinez",
+    Email: "oscarmartinez@google.com",
+    Account_Status: true
+  }
+  const newRecordObjBad = {
+    First_Name: "Jim",
+    Last_Name: "Halpert",
+    Email: "jimhalpert@google.com",
+    Account_Status: false
+  }
+  const VIEW_NAME = 'Demo_Physicians_Active';
+  const createResultOne = await caspio.views.createRecord(VIEW_NAME, newRecordObjGood, { row: true });
+  const createResultTwo = await caspio.views.createRecord(VIEW_NAME, newRecordObjBad, { row: true });
+  console.log(createResultOne);
+  console.log(createResultTwo);
+  return [ createResultOne, createResultTwo ]
+}
+
+createViewRecord();
+
+// example return value(s)
+[
+  {
+    status: 201,
+    statusText: 'Created',
+    message: 'Record successfully created.',
+    createdRecord: {
+      Physician_ID: 'PVFHYYQH',
+      Date_Created: null,
+      First_Name: 'Oscar',
+      Last_Name: 'Martinez',
+      Full_Name: 'Oscar Martinez',
+      Gender: '',
+      Email: 'oscarmartinez@google.com',
+      Account_Status: true,
+      Profile_Status: false,
+      Profile_Picture: null,
+      Specialties: null,
+      About_Section: '',
+      Education_and_Training: '',
+      Languages_Spoken: null,
+      Office_Address: '',
+      Office_City: '',
+      Office_State: '',
+      Office_Zip: '',
+      Title: '',
+      Accepting_New_Patients: false,
+      Affiliations: '',
+      Board_Certifications: '',
+      Office_Name: '',
+      Office_Phone: '',
+      ViewCount: null
+    }
+  },
+  {
+    status: 201,
+    statusText: 'Created',
+    message: 'Record successfully created.',
+    createdRecord: undefined
+  }
+]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>viewName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of view (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>recordValuesObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Object with key-value pairs in the form <code>&lt;fieldName&gt;:&lt;updatedFieldValue&gt;</code>; that is, any provided key should match a field's <code>Name</code> to be created and the key's value should be the value for that field (e.g., <code>{ &quot;First_Name&quot;: &quot;Updated First Name&quot;, &quot;Last_Name&quot;: &quot;Updated Last Name&quot; }</code>).</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{ 'row': false }</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>The <code>options</code> object currently only supports the <code>row</code> option. If no object is provided, then <code>{ 'row': false }</code> is taken as the default value. If an <code>options</code> object is provided with a <code>row</code> property value of <code>true</code>, then the record created by the query is returned in the response object as the value for the <code>createdRecord</code> property--if no record shows up as having been created, then <code>undefined</code> becomes the value for the <code>createdRecord</code> key.</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>row</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>false</code>
+                
+                </td>
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted creation of the provided record (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, and <code>createdRecord</code> if the <code>options</code> argument was passed as <code>{ 'row': true }</code>). If <code>{ 'row': true }</code> is <em>not</em> specified as the third argument, then the response object will not have a <code>createRecord</code> property; if, however, <code>{ 'row': true }</code> is specified but the record was created in an underlying table but does not appear in the view itself, then <code>undefined</code> will be the value for the <code>createdRecord</code> property of the response object.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;({status: 201, statusText: 'Created', message: string}|{status: 201, statusText: 'Created', message: string, createdRecord: object})></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".deleteRecords"><span class="type-signature">(static) </span>deleteRecords<span class="signature">(viewName, whereClause)</span><span class="type-signature"> &rarr; {Promise.&lt;{status: 200, statusText: 'OK', message: string, recordsAffected: number}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line3014">line 3014</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Deletes all records from <code>viewName</code> matched by <code>whereClause</code> (i.e., the provided <code>WHERE</code> clause). This method is generally not recommended due to the notes that follow. Directly deleting records in a <em>table</em> should always be the preferred route since deleting records in a view ultimately results in deleting records from a single underlying table.</p>
+<p><strong>Note (required conditions for deleting a record from a view):</strong> Records may only be deleted in a view if the view itself only contains a single table or if a particular table in the view has been specified as <em>editable</em> within the view's configuration. This can be done by selecting a table under the <em>&quot;Do you need to edit data using this View?&quot;</em> question when editing a view within Caspio.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// Delete all records from the 'Demo_Physicians_Active' view
+// that have an 'Email' field value of 'oscarmartinez@google.com'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function deleteRecordsFromView() {
+  const whereClause = `Email = 'oscarmartinez@google.com'`;
+  const VIEW_NAME = 'Demo_Physicians_Active';
+  const deleteResult = await caspio.views.deleteRecords(VIEW_NAME, whereClause);
+  console.log(deleteResult);
+  return deleteResult;
+}
+
+deleteRecordsFromView();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: '1 record(s) successfully deleted.',
+  recordsAffected: 1
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>viewName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of view (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>whereClause</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p><code>WHERE</code> clause (i.e., query to match records to be affected)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted deletion of the records matched by the <code>WHERE</code> clause (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, and <code>recordsAffected</code>)</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{status: 200, statusText: 'OK', message: string, recordsAffected: number}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".description"><span class="type-signature">(static) </span>description<span class="signature">(viewName)</span><span class="type-signature"> &rarr; {Promise.&lt;{Name: string, Note: string}>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2395">line 2395</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns the description of the view (i.e., a description of view <code>viewName</code>).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get description of the 'Demo_Physicians_Active' view
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getViewDescription() {
+  const VIEW_NAME = 'Demo_Physicians_Active';
+  const description = await caspio.views.description(VIEW_NAME);
+  console.log(description);
+  return description;
+}
+
+getViewDescription();
+
+// sample return value
+{ Name: 'Demo_Physicians_Active', Note: '' }</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>viewName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>Name of the view (case-insensitive)</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with the name of view (i.e., <code>Name</code>) and a note about the view (i.e., <code>Note</code>)</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;{Name: string, Note: string}></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getRecords"><span class="type-signature">(static) </span>getRecords<span class="signature">(viewName, selectionCriteriaObj<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;Object>>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2603">line 2603</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns <em>all</em> records from the view that satisfy the provided query criteria (i.e., <code>selectionCriteriaObj</code>). Pagination is automatically handled to ensure all records matching the provided criteria are returned.</p>
+<p><strong>Note (potential strain on memory resources):</strong> If the query provided results in many thousands or millions of records needing to be returned, then this may cause a strain on memory resources (since all returned records are held in memory when using this method). Consider using the <code>getRecordsStreamToFile</code> method in such an instance where all returned records can be streamed to a file in batches of <code>1000</code> records (i.e., the maximum number of records Caspio's REST API will respond with for any request).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get all records from the 'Demo_Physicians_Active' view
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getViewRecords() {
+  const VIEW_NAME = 'Demo_Physicians_Active';
+  const viewRecords = await caspio.views.getRecords(VIEW_NAME);
+  console.log(viewRecords);
+  return viewRecords;
+}
+
+getViewRecords();
+
+// sample return value
+[
+  ...,
+  {
+    Physician_ID: '6T2C9HW8',
+    Date_Created: '2020-10-07T04:54:19',
+    First_Name: 'Lelah',
+    Last_Name: 'Hoppe',
+    Full_Name: 'Lelah Hoppe',
+    Gender: 'Other',
+    Email: 'Lelah.Hoppe@gmail.com',
+    Account_Status: true,
+    Profile_Status: false,
+    Profile_Picture: '/Demo/LelahHoppe.png',
+    Specialties: {
+      '3': 'Family Medicine',
+      '6': 'Obstetrics and Gynecology',
+      '8': 'Pain Management',
+      '9': 'Pathology'
+    },
+    About_Section: 'Exercitationem ... labore.',
+    Education_and_Training: 'David Geffen School of Medicine - MD\n' +
+      'Yale - Residency, Ophthalmology\n' +
+      'Yale - Fellowship, Cataracts and Refractive Surgery',
+    Languages_Spoken: { '2': 'English', '4': 'French', '7': 'Japanese', '9': 'Spanish' },
+    Office_Address: '0519 Mustafa Via',
+    Office_City: 'New Bradlyhaven',
+    Office_State: 'MI',
+    Office_Zip: '50198',
+    Title: 'Adolescent Medicine Specialist',
+    Accepting_New_Patients: true,
+    Affiliations: 'American College of Endocrinology\n' +
+      'The Endocrine Society\n' +
+      'American Diabetes Association',
+    Board_Certifications: 'American Board of Pediatrics',
+    Office_Name: 'Davis Family Medical Group',
+    Office_Phone: '967-841-6054',
+    ViewCount: 3654
+  },
+  ...
+]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>viewName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of view (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>selectionCriteriaObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{}</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Object that specifies the criteria to be used in constructing the query. Valid properties include the following: <code>select</code>, <code>where</code>, <code>groupBy</code>, and <code>orderBy</code>.</p>
+<p>In large part, the query being constructed resembles most queries constructed using SQL (specifically the SQL Server dialect since Caspio uses SQL Server under the hood). Consult a Caspio rep to find which version your account is running on.</p>
+<p><strong>Note:</strong> Usage of window functions when expecting more than <code>1000</code> records is problematic due to being rate-limited at 1000 records per request (hence there's not an effective window within which to operate).</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>select</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'*'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>List of fields separated by comma, where fields may either be fields directly from the specified view or could be a combination of numerous other things:</p>
+<p>aliases such as <code>First_Name AS name</code>;</p>
+<p>subqueries that return one value such as <code>(SELECT COUNT(User_ID) FROM Demo_Users) AS demo_users_count</code>;</p>
+<p>correlated subqueries such as <code>(SELECT Email FROM Users WHERE Participant_ID = _v_Highlighted_Users.Participant_ID), Notable_Highlight</code> when <code>Highlighted_Users</code> is the value of the <code>viewName</code> argument (i.e., the singular view from which records are being pulled);</p>
+<p>window functions such as <code>ROW_NUMBER() OVER(PARTITION BY Company, Department ORDER BY Salary DESC, Experience DESC, User_ID) AS comp_dept_sal_rnk</code> to compute salary rankings within departments of a company first by salary amount, years of experience, and finally the <code>User_ID</code> if needed to break ties.</p>
+<p>The possibilities are endless--there are numerous possibilities with which to experiment.</p>
+<p><strong>Note:</strong> If you want to use a view in a correlated subquery as shown above, then be sure to add a prefix of <code>_v_</code> to the view name, as specified in Caspio's documentation on <a href="https://howto.caspio.com/datapages/reports/advanced-reporting/calculations-in-forms-and-reports/">calculations in reports</a>.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>where</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>WHERE</code> clause. This is used to find the desired records. You may use subqueries in this clause (e.g., <code>User_ID IN (SELECT ... FROM ... )</code> among other examples)) as well as <code>AND</code>, <code>OR</code>, etc. Much power can be leveraged by using this clause effectively.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>groupBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>GROUP BY</code> clause. Useful for grouping records by specified fields to consequently make aggregate calculations.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>orderBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>ORDER BY</code> clause. Useful for having SQL Server do the heavy lifting concerning sorting before the response gets transmitted across the wire.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>An array of objects representing the records retrieved from the specified view (i.e., <code>viewName</code>) that were obtained by the query provided (i.e., <code>selectionCriteriaObj</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;Array.&lt;Object>></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getRecordsPaginated"><span class="type-signature">(static) </span>getRecordsPaginated<span class="signature">(viewName, selectionCriteriaObj<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;Object>>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2498">line 2498</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns records in a paginated fashion from view <code>viewName</code> that satisfy the provided query criteria (i.e., <code>selectionCriteriaObj</code>).</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get a single record from the 'Demo_Physicians_Active' view
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getPaginatedViewRecords() {
+  const criteriaObj = {
+    limit: 1
+  }
+  const VIEW_NAME = 'Demo_Physicians_Active';
+  const viewRecords = await caspio.views.getRecordsPaginated(VIEW_NAME, criteriaObj);
+  console.log(viewRecords);
+  return viewRecords;
+}
+
+getPaginatedViewRecords();
+
+// sample return value
+[
+  {
+    Physician_ID: '6T2C9HW8',
+    Date_Created: '2020-10-07T04:54:19',
+    First_Name: 'Lelah',
+    Last_Name: 'Hoppe',
+    Full_Name: 'Lelah Hoppe',
+    Gender: 'Other',
+    Email: 'Lelah.Hoppe@gmail.com',
+    Account_Status: true,
+    Profile_Status: false,
+    Profile_Picture: '/Demo/LelahHoppe.png',
+    Specialties: {
+      '3': 'Family Medicine',
+      '6': 'Obstetrics and Gynecology',
+      '8': 'Pain Management',
+      '9': 'Pathology'
+    },
+    About_Section: 'Exercitationem ... labore.',
+    Education_and_Training: 'David Geffen School of Medicine - MD\n' +
+      'Yale - Residency, Ophthalmology\n' +
+      'Yale - Fellowship, Cataracts and Refractive Surgery',
+    Languages_Spoken: { '2': 'English', '4': 'French', '7': 'Japanese', '9': 'Spanish' },
+    Office_Address: '0519 Mustafa Via',
+    Office_City: 'New Bradlyhaven',
+    Office_State: 'MI',
+    Office_Zip: '50198',
+    Title: 'Adolescent Medicine Specialist',
+    Accepting_New_Patients: true,
+    Affiliations: 'American College of Endocrinology\n' +
+      'The Endocrine Society\n' +
+      'American Diabetes Association',
+    Board_Certifications: 'American Board of Pediatrics',
+    Office_Name: 'Davis Family Medical Group',
+    Office_Phone: '967-841-6054',
+    ViewCount: 3654
+  }
+]</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>viewName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of view (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>selectionCriteriaObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{}</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Object that specifies the criteria to be used in constructing the query. Valid properties include the following: <code>select</code>, <code>where</code>, <code>groupBy</code>, <code>orderBy</code>, <code>limit</code>, <code>pageNumber</code>, and <code>pageSize</code>.</p>
+<p>In large part, the query being constructed resembles most queries constructed using SQL (specifically the SQL Server dialect since Caspio uses SQL Server under the hood). Consult a Caspio rep to find which version your account is running on.</p>
+<p><strong>Note:</strong> Usage of window functions (e.g., <code>ROW_NUMBER()</code>) when expecting more than <code>1000</code> records is problematic due to being rate-limited by Caspio's servers at 1000 records per request (hence there's not an effective window within which to operate).</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>select</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'*'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>List of fields separated by comma, where fields may either be fields directly from the specified view or could be a combination of numerous other things:</p>
+<p>aliases such as <code>First_Name AS name</code>;</p>
+<p>subqueries that return one value such as <code>(SELECT COUNT(User_ID) FROM Demo_Users) AS demo_users_count</code>;</p>
+<p>correlated subqueries such as <code>(SELECT Email FROM Users WHERE Participant_ID = _v_Highlighted_Users.Participant_ID), Notable_Highlight</code> when <code>Highlighted_Users</code> is the value of the <code>viewName</code> argument (i.e., the singular view from which records are being pulled);</p>
+<p>window functions such as <code>ROW_NUMBER() OVER(PARTITION BY Company, Department ORDER BY Salary DESC, Experience DESC, User_ID) AS comp_dept_sal_rnk</code> to compute salary rankings within departments of a company first by salary amount, years of experience, and finally the <code>User_ID</code> if needed to break ties.</p>
+<p>The possibilities are endless--there are numerous possibilities with which to experiment.</p>
+<p><strong>Note:</strong> If you want to use a view in a correlated subquery as shown above, then be sure to add a prefix of <code>_v_</code> to the view name, as specified in Caspio's documentation on <a href="https://howto.caspio.com/datapages/reports/advanced-reporting/calculations-in-forms-and-reports/">calculations in reports</a>.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>where</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>WHERE</code> clause. This is used to find the desired records. You may use subqueries in this clause (e.g., <code>User_ID IN (SELECT ... FROM ... )</code> among other examples) as well as <code>AND</code>, <code>OR</code>, etc. Much power can be leveraged by using this clause effectively.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>groupBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>GROUP BY</code> clause. Useful for grouping records by specified fields to consequently make aggregate calculations.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>orderBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>ORDER BY</code> clause. Useful for having SQL Server do the heavy lifting concerning sorting before the response gets transmitted across the wire.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>limit</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>100</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Specifies the maximum number of records to be returned. Maximum possible value of <code>1000</code> with a default value of <code>100</code>. Skipped if either <code>pageNumber</code> or <code>pageSize</code> has been specified.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>pageNumber</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Page number corresponding to the pagination that results from the initial query. Defaults to <code>1</code> if <code>pageSize</code> has been specified but <code>pageNumber</code> has not.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>pageSize</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Number of records per page (possible from <code>5</code> to <code>1000</code>). Defaults to <code>25</code> if <code>pageNumber</code> has been specified but <code>pageSize</code> has not.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>An array of objects representing the records retrieved from the specified view (i.e., <code>viewName</code>) that were obtained by the query provided (i.e., <code>selectionCriteriaObj</code>).</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;Array.&lt;Object>></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".getRecordsStreamToFile"><span class="type-signature">(static) </span>getRecordsStreamToFile<span class="signature">(viewName, filePath, selectionCriteriaObj<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {void}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2695">line 2695</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Streams <em>all</em> records from the view (i.e., <code>viewName</code>) that satisfy the provided query criteria (i.e., <code>selectionCriteriaObj</code>) to a file (i.e., <code>filePath</code>). Pagination is automatically handled to ensure all records matching the provided criteria are streamed to the specified file. Records are streamed in batches of <code>1000</code> records (Caspio's rate limit for returning records). Useful when you need to process huge amounts of data but do not want to hold everything in memory.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// stream all records from the 'Demo_Physicians_Active' view
+// to the 'Demo_Physicians_Active.json' file
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function streamViewRecordsToFile() {
+  const VIEW_NAME = 'Demo_Physicians_Active';
+  const FILE_PATH = 'Demo_Physicians_Active.json';
+  await caspio.views.getRecordsStreamToFile(VIEW_NAME, FILE_PATH);
+}
+
+streamViewRecordsToFile();
+
+// no return value</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>viewName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of view (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>filePath</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Path of file to write to (file path should have an extension of <code>.json</code>)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>selectionCriteriaObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{}</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>Object that specifies the criteria to be used in constructing the query. Valid properties include the following: <code>select</code>, <code>where</code>, <code>groupBy</code>, and <code>orderBy</code>.</p>
+<p>In large part, the query being constructed resembles most queries constructed using SQL (specifically the SQL Server dialect since Caspio uses SQL Server under the hood). Consult a Caspio rep to find which version your account is running on.</p>
+<p><strong>Note:</strong> Usage of window functions when expecting more than <code>1000</code> records is problematic due to being rate-limited at 1000 records per request (hence there's not an effective window within which to operate).</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>select</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>'*'</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>List of fields separated by comma, where fields may either be fields directly from the specified view or could be a combination of numerous other things:</p>
+<p>aliases such as <code>First_Name AS name</code>;</p>
+<p>subqueries that return one value such as <code>(SELECT COUNT(User_ID) FROM Demo_Users) AS demo_users_count</code>;</p>
+<p>correlated subqueries such as <code>(SELECT Email FROM Users WHERE Participant_ID = _v_Highlighted_Users.Participant_ID), Notable_Highlight</code> when <code>Highlighted_Users</code> is the value of the <code>viewName</code> argument (i.e., the singular view from which records are being pulled);</p>
+<p>window functions such as <code>ROW_NUMBER() OVER(PARTITION BY Company, Department ORDER BY Salary DESC, Experience DESC, User_ID) AS comp_dept_sal_rnk</code> to compute salary rankings within departments of a company first by salary amount, years of experience, and finally the <code>User_ID</code> if needed to break ties.</p>
+<p>The possibilities are endless--there are numerous possibilities with which to experiment.</p>
+<p><strong>Note:</strong> If you want to use a view in a correlated subquery as shown above, then be sure to add a prefix of <code>_v_</code> to the view name, as specified in Caspio's documentation on <a href="https://howto.caspio.com/datapages/reports/advanced-reporting/calculations-in-forms-and-reports/">calculations in reports</a>.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>where</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>WHERE</code> clause. This is used to find the desired records. You may use subqueries in this clause (e.g., <code>User_ID IN (SELECT ... FROM ... )</code> among other examples)) as well as <code>AND</code>, <code>OR</code>, etc. Much power can be leveraged by using this clause effectively.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>groupBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>GROUP BY</code> clause. Useful for grouping records by specified fields to consequently make aggregate calculations.</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>orderBy</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>''</code>
+                
+                </td>
+            
+
+            <td class="description last"><p><code>ORDER BY</code> clause. Useful for having SQL Server do the heavy lifting concerning sorting before the response gets transmitted across the wire.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>No value is returned</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">void</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".listing"><span class="type-signature">(static) </span>listing<span class="signature">()</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;string>>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2356">line 2356</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Returns an array of strings where each string represents an available view for a Caspio account.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// get list of all view names linked to a Caspio account
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function getViewNames() {
+  const viewNames = await caspio.views.listing();
+  console.log(viewNames);
+  return viewNames;
+}
+
+getViewNames();
+
+// sample return value
+[
+  ...
+  'Demo_Admins_Active',
+  'Demo_Physicians_Active',
+  'Demo_Physicians_Published',
+  ...
+]</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Array of strings representing view names for a Caspio account</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;Array.&lt;string>></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id=".updateRecords"><span class="type-signature">(static) </span>updateRecords<span class="signature">(viewName, whereClause, newRecordValuesObj, options<span class="signature-attributes">opt</span>)</span><span class="type-signature"> &rarr; {Promise.&lt;({status: 200, statusText: 'OK', message: string, recordsAffected: number}|{status: 200, statusText: 'OK', message: string, recordsAffected: number, updatedRecords: Array.&lt;Object>})>}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="src_index.js.html">src/index.js</a>, <a href="src_index.js.html#line2828">line 2828</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+    <dt class="tag-since">Since:</dt>
+    <dd class="tag-since"><ul class="dummy"><li>1.0.0</li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description usertext">
+    <p>Updates all records in view <code>viewName</code> that match the provided <code>WHERE</code> clause. This method is generally <em>not</em> recommended due to the notes that follow. Directly updating records in a <em>table</em> should always be the preferred route since updating records in a view ultimately results in updating records in a single underlying table.</p>
+<p><strong>Note 1 (required conditions for updating view records):</strong> Records may only be updated in a view if the view itself only contains a single table or if a particular table in the view has been specified as <em>editable</em> within the view's configuration. This can be done by selecting a table under the <em>&quot;Do you need to edit data using this View?&quot;</em> question when editing a view within Caspio.</p>
+<p><strong>Note 2 (updating a view record that results in the record's disappearance from the view):</strong> It is possible for a record to be updated in the view but not appear in the <code>updatedRecords</code> array. How? If the record is no longer included in the view after the update, then the record does not appear as one of the records that was updated. For example, if a field value is being used to make the record appear in the view (e.g., <code>Account_Status</code> of <code>true</code> for the <code>Demo_Physicians_Active</code> view), then changing that field value may result in the field being excluded from the view (e.g., changing <code>Account_Status</code> from <code>true</code> to <code>false</code>), which would correspondingly exclude the updated record from the <code>updatedRecords</code> array in the response.</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <h5>Example</h5>
+    
+    <pre class="prettyprint"><code>// update records in the 'Demo_Physicians_Active' to have a 'Profile_Status'
+// field value of false for all records where the 'Email' field value is 'Lelah.Hoppe@gmail.com'
+const caspio = require('caspio-sdk')(caspioCredentials);
+
+async function updateViewRecords() {
+  const whereClause = `Email = 'Lelah.Hoppe@gmail.com'`;
+  const newValuesObj = {
+    Profile_Status: false
+  }
+  const VIEW_NAME = 'Demo_Physicians_Active';
+  const updateResult = await caspio.views.updateRecords(VIEW_NAME, whereClause, newValuesObj, { rows: true });
+  console.log(updateResult);
+  return updateResult;
+}
+
+updateViewRecords();
+
+// sample return value
+{
+  status: 200,
+  statusText: 'OK',
+  message: '1 record(s) affected.',
+  recordsAffected: 1,
+  updatedRecords: [
+    {
+      Physician_ID: '6T2C9HW8',
+      Date_Created: '2020-10-07T04:54:19',
+      First_Name: 'Lelah',
+      Last_Name: 'Hoppe',
+      Full_Name: 'Lelah Hoppe',
+      Gender: 'Other',
+      Email: 'Lelah.Hoppe@gmail.com',
+      Account_Status: true,
+      Profile_Status: false,
+      Profile_Picture: '/Demo/LelahHoppe.png',
+      Specialties: [Object],
+      About_Section: 'Exercitationem ... labore.',
+      Education_and_Training: 'David Geffen School of Medicine - MD\n' +
+        'Yale - Residency, Ophthalmology\n' +
+        'Yale - Fellowship, Cataracts and Refractive Surgery',
+      Languages_Spoken: [Object],
+      Office_Address: '0519 Mustafa Via',
+      Office_City: 'New Bradlyhaven',
+      Office_State: 'MI',
+      Office_Zip: '50198',
+      Title: 'Adolescent Medicine Specialist',
+      Accepting_New_Patients: true,
+      Affiliations: 'American College of Endocrinology\n' +
+        'The Endocrine Society\n' +
+        'American Diabetes Association',
+      Board_Certifications: 'American Board of Pediatrics',
+      Office_Name: 'Davis Family Medical Group',
+      Office_Phone: '967-841-6054',
+      ViewCount: 3654
+    }
+  ]
+}</code></pre>
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>viewName</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Name of view (case-insensitive)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>whereClause</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p><code>WHERE</code> clause (i.e., query to match records to be affected)</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>newRecordValuesObj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"><p>Object with key-value pairs in the form <code>&lt;fieldName&gt;:&lt;updatedFieldValue&gt;</code>; that is, any provided key should match a field's <code>Name</code> to be updated and the key's value should be the <em>updated</em> value for that field (e.g., <code>{ &quot;First_Name&quot;: &quot;Updated First Name&quot;, &quot;Last_Name&quot;: &quot;Updated Last Name&quot; }</code>).</p></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>{ 'rows': '' }</code>
+                
+                </td>
+            
+
+            <td class="description last"><p>The <code>options</code> object currently only supports the <code>rows</code> option. If no object is provided, then <code>{ 'rows': false }</code> is taken as the default value. If an <code>options</code> object is provided with a <code>rows</code> property value of <code>true</code>, then the records updated by the query are returned in the response object as the value for the <code>updatedRecords</code> property; otherwise, the response object does not have an <code>updatedRecords</code> property and no updated records are returned.</p>
+                <h6>Properties</h6>
+                
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Attributes</th>
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>rows</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+                <td class="default">
+                
+                    <code>false</code>
+                
+                </td>
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+            </td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>Object with information about the attempted update of the records matched by the <code>WHERE</code> clause (i.e., <code>status</code>, <code>statusText</code>, <code>message</code>, <code>recordsAffected</code>, and <code>updatedRecords</code> if the <code>options</code> argument was passed as <code>{ 'rows': true }</code>)</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Promise.&lt;({status: 200, statusText: 'OK', message: string, recordsAffected: number}|{status: 200, statusText: 'OK', message: string, recordsAffected: number, updatedRecords: Array.&lt;Object>})></span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.10</a> using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>
