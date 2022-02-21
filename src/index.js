@@ -1964,9 +1964,9 @@ function apiWrapper(credentials) {
               }
               let stillQueryAPI = true;
               // ensure all records are retrieved by overriding any value set for pageNumber query parameter
-              queryObj.pageNumber = 2;
+              queryObj.pageNumber = 1;
               queryObj.pageSize = 1000;
-              let allRecords = [...resultSet];
+              let allRecords = [];
               while (stillQueryAPI) {
                 const queryString = _utils.criteriaQueryBuilder(queryObj);
                 const singleRequest = await axios({
@@ -2051,14 +2051,14 @@ function apiWrapper(credentials) {
               if (resultSet.length > 0 && Object.prototype.hasOwnProperty.call(resultSet[0], 'PK_ID')) {
                 resultSet = _utils.stripPKIDFields(resultSet);
               }
-              resultSet.forEach(transformStream.write);
-
+              
               if (resultSet.length < 1000) {
+                resultSet.forEach(transformStream.write);
                 transformStream.end();
               } else {
                 let stillQueryAPI = true;
                 // ensure all records are retrieved by overriding any value set for pageNumber query parameter
-                queryObj.pageNumber = 2;
+                queryObj.pageNumber = 1;
                 queryObj.pageSize = 1000;
                 while (stillQueryAPI) {
                   const queryString = _utils.criteriaQueryBuilder(queryObj);
@@ -2620,9 +2620,9 @@ function apiWrapper(credentials) {
               }
               let stillQueryAPI = true;
               // ensure all records are retrieved by overriding any value set for pageNumber query parameter
-              queryObj.pageNumber = 2;
+              queryObj.pageNumber = 1;
               queryObj.pageSize = 1000;
-              let allRecords = [...resultSet];
+              let allRecords = [];
               while (stillQueryAPI) {
                 const queryString = _utils.criteriaQueryBuilder(queryObj);
                 const singleRequest = await axios({
@@ -2713,14 +2713,14 @@ function apiWrapper(credentials) {
               if (resultSet.length > 0 && Object.prototype.hasOwnProperty.call(resultSet[0], 'PK_ID')) {
                 resultSet = _utils.stripPKIDFields(resultSet);
               }
-              resultSet.forEach(transformStream.write);
-
+              
               if (resultSet.length < 1000) {
+                resultSet.forEach(transformStream.write);
                 transformStream.end();
               } else {
                 let stillQueryAPI = true;
                 // ensure all records are retrieved by overriding any value set for pageNumber query parameter
-                queryObj.pageNumber = 2;
+                queryObj.pageNumber = 1;
                 queryObj.pageSize = 1000;
                 while (stillQueryAPI) {
                   const queryString = _utils.criteriaQueryBuilder(queryObj);
